@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Episode Archive</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Inter:ital,wght@0,400;0,600;1,400;1,600&amp;family=JetBrains Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Huberman Lab Wiki"/><meta property="og:title" content="Episode Archive"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Episode Archive"/><meta name="twitter:description" content="137 episodes of Huberman Lab, covering neuroscience, protocols, and health optimization."/><meta property="og:description" content="137 episodes of Huberman Lab, covering neuroscience, protocols, and health optimization."/><meta property="og:image:alt" content="137 episodes of Huberman Lab, covering neuroscience, protocols, and health optimization."/><meta property="og:image" content="https://huberman.wiki/static/og-image.png"/><meta property="og:image:url" content="https://huberman.wiki/static/og-image.png"/><meta name="twitter:image" content="https://huberman.wiki/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="huberman.wiki"/><meta property="og:url" content="https://huberman.wiki/episodes/index"/><meta property="twitter:url" content="https://huberman.wiki/episodes/index"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="137 episodes of Huberman Lab, covering neuroscience, protocols, and health optimization."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2NoYXJsaWVkZWlzdC9EZXNrdG9wL05ldyBSb290IERvY3MvQ3JlYXRpdmUgSW50ZWxsaWdlbmNlIEFnZW5jeS93aWtpLXByb2plY3RzL2h1YmVybWFuLXdpa2kvc2l0ZS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://huberman.wiki/index.xml"/></head><body data-slug="episodes/index"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Huberman Lab Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="open" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>{let order=[\&quot;foundations\&quot;,\&quot;mechanisms\&quot;,\&quot;protocols\&quot;,\&quot;conditions\&quot;],aIdx=order.indexOf(a.slugSegment??\&quot;\&quot;),bIdx=order.indexOf(b.slugSegment??\&quot;\&quot;);return aIdx!==-1&amp;&amp;bIdx!==-1?aIdx-bIdx:aIdx!==-1?-1:bIdx!==-1?1:a.displayName.localeCompare(b.displayName)}&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&amp;&amp;node.slugSegment!==\&quot;episodes\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-3" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-3"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Episode Archive</a></div></nav><h1 class="article-title">Episode Archive</h1><p show-comma="true" class="content-meta"><time datetime="2026-02-05T22:02:55.832Z">Feb 05, 2026</time><span>8 min read</span></p></div></div><div class="popover-hint"><article class><p>137 episodes of Huberman Lab, covering neuroscience, protocols, and health optimization.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Date</th><th>Title</th><th>Duration</th></tr></thead><tbody><tr><td>2026-01-12</td><td><a href="../episodes/t6RCTP4fc9Q" class="internal alias" data-slug="episodes/t6RCTP4fc9Q">How to Overcome Addiction to Substances or Behaviors | Dr. Keith Humphreys</a></td><td>03:27:01</td></tr><tr><td>2026-01-08</td><td><a href="../episodes/23t_ynq2tmk" class="internal alias" data-slug="episodes/23t_ynq2tmk">Optimizing Workspace for Productivity, Focus &amp; Creativity | Huberman Lab Essentials</a></td><td>00:30:12</td></tr><tr><td>2026-01-01</td><td><a href="../episodes/fh2dBmLN-ZM" class="internal alias" data-slug="episodes/fh2dBmLN-ZM">Essentials: Micronutrients for Health &amp; Longevity | Dr. Rhonda Patrick</a></td><td>00:35:37</td></tr><tr><td>2025-12-29</td><td><a href="../episodes/qGb7hYMlA3o" class="internal alias" data-slug="episodes/qGb7hYMlA3o">Defining Healthy Masculinity &amp; How to Build It | Terry Real</a></td><td>02:50:31</td></tr><tr><td>2025-12-25</td><td><a href="../episodes/fYhY-vC000A" class="internal alias" data-slug="episodes/fYhY-vC000A">Essentials: How to Optimize Your Hormones for Health &amp; Vitality | Dr. Kyle Gillett</a></td><td>00:37:16</td></tr><tr><td>2025-12-22</td><td><a href="../episodes/zHyvVajsqMw" class="internal alias" data-slug="episodes/zHyvVajsqMw">Transform Pain &amp; Trauma Into Creative Expression | David Choe</a></td><td>03:53:54</td></tr><tr><td>2025-12-18</td><td><a href="../episodes/zYuw-8pwnp8" class="internal alias" data-slug="episodes/zYuw-8pwnp8">How to Set &amp; Achieve Goals | Huberman Lab Essentials</a></td><td>00:33:18</td></tr><tr><td>2025-12-15</td><td><a href="../episodes/nMkQUlBtFlk" class="internal alias" data-slug="episodes/nMkQUlBtFlk">Improve Energy &amp; Longevity by Optimizing Mitochondria | Dr. Martin Picard</a></td><td>03:16:46</td></tr><tr><td>2025-12-11</td><td><a href="../episodes/n_MVhE63ZQQ" class="internal alias" data-slug="episodes/n_MVhE63ZQQ">Essentials: Build a Healthy Gut Microbiome | Dr. Justin Sonnenburg</a></td><td>00:34:49</td></tr><tr><td>2025-12-04</td><td><a href="../episodes/HXuj7wAt7u8" class="internal alias" data-slug="episodes/HXuj7wAt7u8">The Science of Making &amp; Breaking Habits | Huberman Lab Essentials</a></td><td>00:36:16</td></tr><tr><td>2025-12-01</td><td><a href="../episodes/iT8W6kaD-RA" class="internal alias" data-slug="episodes/iT8W6kaD-RA">Dr. Glen Jeffery: Using Red Light to Improve Your Health &amp; the Harmful Effects of LEDs</a></td><td>02:14:26</td></tr><tr><td>2025-11-27</td><td><a href="../episodes/SOo4yNoaAoc" class="internal alias" data-slug="episodes/SOo4yNoaAoc">Essentials: Using Hypnosis to Enhance Mental &amp; Physical Health &amp; Performance | Dr. David Spiegel</a></td><td>00:34:58</td></tr><tr><td>2025-11-24</td><td><a href="../episodes/hMzfGZnaPN8" class="internal alias" data-slug="episodes/hMzfGZnaPN8">Female Hormone Health, PCOS, Endometriosis, Fertility &amp; Breast Cancer | Dr. Thaïs Aliabadi</a></td><td>03:07:28</td></tr><tr><td>2025-11-20</td><td><a href="../episodes/25PtptE7mWk" class="internal alias" data-slug="episodes/25PtptE7mWk">Essentials: Science of Building Strong Social Bonds with Family, Friends &amp; Romantic Partners</a></td><td>00:32:15</td></tr><tr><td>2025-11-17</td><td><a href="../episodes/ZtTUfMHuioA" class="internal alias" data-slug="episodes/ZtTUfMHuioA">How to Speak Clearly &amp; With Confidence | Matt Abrahams</a></td><td>02:26:21</td></tr><tr><td>2025-11-13</td><td><a href="../episodes/Y3NUEPNZDMA" class="internal alias" data-slug="episodes/Y3NUEPNZDMA">Essentials: Breathing for Mental &amp; Physical Health &amp; Performance | Dr. Jack Feldman</a></td><td>00:45:48</td></tr><tr><td>2025-11-10</td><td><a href="../episodes/tb6ApBIXr1k" class="internal alias" data-slug="episodes/tb6ApBIXr1k">How Your Thoughts Are Built &amp; How You Can Shape Them | Dr. Jennifer Groh</a></td><td>02:16:34</td></tr><tr><td>2025-11-06</td><td><a href="../episodes/tpntW9Tte4M" class="internal alias" data-slug="episodes/tpntW9Tte4M">Erasing Fears &amp; Traumas Using Modern Neuroscience | Huberman Lab Essentials</a></td><td>00:35:04</td></tr><tr><td>2025-11-03</td><td><a href="../episodes/PCbD3hFyfCk" class="internal alias" data-slug="episodes/PCbD3hFyfCk">How A Doctor Cured His Own Terminal Disease | Dr. David Fajgenbaum</a></td><td>01:58:54</td></tr><tr><td>2025-10-30</td><td><a href="../episodes/Ykvkg2Jz3X8" class="internal alias" data-slug="episodes/Ykvkg2Jz3X8">Essentials: The Biology of Slowing &amp; Reversing Aging | Dr. David Sinclair</a></td><td>00:33:59</td></tr><tr><td>2025-10-27</td><td><a href="../episodes/KBkl3I645c8" class="internal alias" data-slug="episodes/KBkl3I645c8">Improve Your Lymphatic System for Overall Health &amp; Appearance</a></td><td>01:39:47</td></tr><tr><td>2025-10-23</td><td><a href="../episodes/9gJLWk3W5GQ" class="internal alias" data-slug="episodes/9gJLWk3W5GQ">The Science of Gratitude &amp; How to Build a Gratitude Practice | Huberman Lab Essentials</a></td><td>00:34:45</td></tr><tr><td>2025-10-20</td><td><a href="../episodes/cpKsogGdem4" class="internal alias" data-slug="episodes/cpKsogGdem4">How to Overcome Inner Resistance | Steven Pressfield</a></td><td>02:15:02</td></tr><tr><td>2025-10-16</td><td><a href="../episodes/-zI0ZgKM0xA" class="internal alias" data-slug="episodes/-zI0ZgKM0xA">Essentials: How Your Brain Functions &amp; Interprets the World | Dr. David Berson</a></td><td>00:35:44</td></tr><tr><td>2025-10-13</td><td><a href="../episodes/xGmGBFpmdhQ" class="internal alias" data-slug="episodes/xGmGBFpmdhQ">Protect &amp; Improve Your Hearing &amp; Brain Health | Dr. Konstantina Stankovic</a></td><td>02:27:42</td></tr><tr><td>2025-10-09</td><td><a href="../episodes/vXTK0Ac9i1Q" class="internal alias" data-slug="episodes/vXTK0Ac9i1Q">Time Perception, Memory &amp; Focus | Huberman Lab Essentials</a></td><td>00:30:55</td></tr><tr><td>2025-10-06</td><td><a href="../episodes/WwRc2SEo-VI" class="internal alias" data-slug="episodes/WwRc2SEo-VI">How to Make Yourself Unbreakable | DJ Shipley</a></td><td>03:42:36</td></tr><tr><td>2025-10-02</td><td><a href="../episodes/VqiPNN4Jblk" class="internal alias" data-slug="episodes/VqiPNN4Jblk">Essentials: How Humans Select &amp; Keep Romantic Partners in the Short &amp; Long Term | Dr. David Buss</a></td><td>00:31:01</td></tr><tr><td>2025-09-29</td><td><a href="../episodes/MlmFj1-mOtg" class="internal alias" data-slug="episodes/MlmFj1-mOtg">Enhance Your Learning Speed &amp; Health Using Neuroscience Based Protocols | Dr. Poppy Crum</a></td><td>02:35:50</td></tr><tr><td>2025-09-25</td><td><a href="../episodes/pN1UL1M9sqc" class="internal alias" data-slug="episodes/pN1UL1M9sqc">Using Your Nervous System to Enhance Your Immune System | Huberman Lab Essentials</a></td><td>00:36:22</td></tr><tr><td>2025-09-22</td><td><a href="../episodes/7SIjcX5B1Vs" class="internal alias" data-slug="episodes/7SIjcX5B1Vs">Build Your Ideal Physique | Dr. Bret Contreras</a></td><td>03:03:56</td></tr><tr><td>2025-09-18</td><td><a href="../episodes/dy_iLCJggO0" class="internal alias" data-slug="episodes/dy_iLCJggO0">Essentials: How to Exercise for Strength Gains &amp; Hormone Optimization | Dr. Duncan French</a></td><td>00:34:57</td></tr><tr><td>2025-09-15</td><td><a href="../episodes/2t4vswC-3mY" class="internal alias" data-slug="episodes/2t4vswC-3mY">How to Expand Your Consciousness | Dr. Christof Koch</a></td><td>02:11:42</td></tr><tr><td>2025-09-11</td><td><a href="../episodes/cIla9axQRyM" class="internal alias" data-slug="episodes/cIla9axQRyM">Food &amp; Supplements for Brain Health &amp; Cognitive Performance | Huberman Lab Essentials</a></td><td>00:32:34</td></tr><tr><td>2025-09-08</td><td><a href="../episodes/cjAvD-U5so0" class="internal alias" data-slug="episodes/cjAvD-U5so0">Transform Your Metabolic Health &amp; Longevity by Knowing Your Unique Biology | Dr. Michael Snyder</a></td><td>02:45:05</td></tr><tr><td>2025-09-04</td><td><a href="../episodes/alVWRl_X_AA" class="internal alias" data-slug="episodes/alVWRl_X_AA">Essentials: Science of Mindsets for Health &amp; Performance | Dr. Alia Crum</a></td><td>00:34:12</td></tr><tr><td>2025-09-01</td><td><a href="../episodes/4TsOnsPDKKY" class="internal alias" data-slug="episodes/4TsOnsPDKKY">How to Set &amp; Achieve Massive Goals | Alex Honnold</a></td><td>01:49:13</td></tr><tr><td>2025-08-28</td><td><a href="../episodes/D61jJJPIQeo" class="internal alias" data-slug="episodes/D61jJJPIQeo">Effects of Fasting &amp; Time Restricted Eating on Fat Loss &amp; Health | Huberman Lab Essentials</a></td><td>00:38:22</td></tr><tr><td>2025-08-25</td><td><a href="../episodes/Whe2Jh9q6jI" class="internal alias" data-slug="episodes/Whe2Jh9q6jI">Science &amp; Health Benefits of Belief in God &amp; Religion | Dr. David DeSteno</a></td><td>02:24:18</td></tr><tr><td>2025-08-21</td><td><a href="../episodes/2XMb3MD6g6Q" class="internal alias" data-slug="episodes/2XMb3MD6g6Q">Essentials: Timing Light for Better Sleep, Energy &amp; Mood | Dr. Samer Hattar</a></td><td>00:30:45</td></tr><tr><td>2025-08-18</td><td><a href="../episodes/H4mMZ0vliMo" class="internal alias" data-slug="episodes/H4mMZ0vliMo">Curing Autism, Epilepsy &amp; Schizophrenia with Stem Cells | Dr. Sergiu Pașca</a></td><td>02:23:15</td></tr><tr><td>2025-08-14</td><td><a href="../episodes/XeN6eGO6FVQ" class="internal alias" data-slug="episodes/XeN6eGO6FVQ">Controlling Your Dopamine for Motivation, Focus &amp; Satisfaction | Huberman Lab Essentials</a></td><td>00:32:54</td></tr><tr><td>2025-08-11</td><td><a href="../episodes/rcAyjg-oy84" class="internal alias" data-slug="episodes/rcAyjg-oy84">How to Rewire Your Brain &amp; Learn Faster | Dr. Michael Kilgard</a></td><td>03:09:35</td></tr><tr><td>2025-08-07</td><td><a href="../episodes/aZklQpFa2kE" class="internal alias" data-slug="episodes/aZklQpFa2kE">Essentials: Increase Strength &amp; Endurance with Cooling Protocols | Dr. Craig Heller</a></td><td>00:31:20</td></tr><tr><td>2025-08-04</td><td><a href="../episodes/Ibj1k3IZTNU" class="internal alias" data-slug="episodes/Ibj1k3IZTNU">How to Control Your Cortisol &amp; Overcome Burnout</a></td><td>02:16:16</td></tr><tr><td>2025-07-31</td><td><a href="../episodes/LAwBdRR4wQk" class="internal alias" data-slug="episodes/LAwBdRR4wQk">ADHD &amp; How Anyone Can Improve Their Focus | Huberman Lab Essentials</a></td><td>00:37:54</td></tr><tr><td>2025-07-28</td><td><a href="../episodes/k8SBJzsIWAo" class="internal alias" data-slug="episodes/k8SBJzsIWAo">Male vs. Female Brain Differences &amp; How They Arise From Genes &amp; Hormones | Dr. Nirao Shah</a></td><td>02:26:44</td></tr><tr><td>2025-07-24</td><td><a href="../episodes/OvHbhzArbfE" class="internal alias" data-slug="episodes/OvHbhzArbfE">Essentials: Psychedelics for Treating Mental Disorders | Dr. Matthew Johnson</a></td><td>00:34:48</td></tr><tr><td>2025-07-21</td><td><a href="../episodes/gyE6Z4GLEeM" class="internal alias" data-slug="episodes/gyE6Z4GLEeM">Health Effects &amp; Risks of Kratom, Opioids &amp; Other Natural Occurring Medicines | Dr. Chris McCurdy</a></td><td>02:42:52</td></tr><tr><td>2025-07-17</td><td><a href="../episodes/mJv1_esiJ8g" class="internal alias" data-slug="episodes/mJv1_esiJ8g">Healthy Eating &amp; Eating Disorders - Anorexia, Bulimia, Binging | Huberman Lab Essentials</a></td><td>00:39:32</td></tr><tr><td>2025-07-14</td><td><a href="../episodes/ewnvjnuFTOY" class="internal alias" data-slug="episodes/ewnvjnuFTOY">How Nature &amp; Other Physical Environments Impact Your Focus, Cognition &amp; Health | Dr. Marc Berman</a></td><td>02:11:46</td></tr><tr><td>2025-07-10</td><td><a href="../episodes/WxtxzRdJFTI" class="internal alias" data-slug="episodes/WxtxzRdJFTI">Essentials: Science of Stress, Testosterone, Aggression &amp; Motivation | Dr. Robert Sapolsky</a></td><td>00:30:54</td></tr><tr><td>2025-07-07</td><td><a href="../episodes/h_1zlead9ZU" class="internal alias" data-slug="episodes/h_1zlead9ZU">How to Lose Fat &amp; Gain Muscle With Nutrition | Alan Aragon</a></td><td>02:34:08</td></tr><tr><td>2025-07-03</td><td><a href="../episodes/HWcphoKlbxY" class="internal alias" data-slug="episodes/HWcphoKlbxY">Understanding &amp; Conquering Depression | Huberman Lab Essentials</a></td><td>00:35:40</td></tr><tr><td>2025-06-30</td><td><a href="../episodes/zqANjUGarAw" class="internal alias" data-slug="episodes/zqANjUGarAw">The Chemistry of Food &amp; Taste | Dr. Harold McGee</a></td><td>02:13:19</td></tr><tr><td>2025-06-26</td><td><a href="../episodes/i4gvIeA3RcI" class="internal alias" data-slug="episodes/i4gvIeA3RcI">Essentials: Understanding &amp; Treating Addiction | Dr. Anna Lembke</a></td><td>00:31:51</td></tr><tr><td>2025-06-23</td><td><a href="../episodes/CLbVW3Pj46A" class="internal alias" data-slug="episodes/CLbVW3Pj46A">Control Your Vagus Nerve to Improve Mood, Alertness &amp; Neuroplasticity</a></td><td>01:51:15</td></tr><tr><td>2025-06-19</td><td><a href="../episodes/vm1GbSPx48g" class="internal alias" data-slug="episodes/vm1GbSPx48g">How to Control Your Sense of Pain &amp; Pleasure | Huberman Lab Essentials</a></td><td>00:32:44</td></tr><tr><td>2025-06-16</td><td><a href="../episodes/SsKkZTjUJEk" class="internal alias" data-slug="episodes/SsKkZTjUJEk">How to Grow From Doing Hard Things | Michael Easter</a></td><td>03:05:40</td></tr><tr><td>2025-06-12</td><td><a href="../episodes/JaRGJVrJBQ8" class="internal alias" data-slug="episodes/JaRGJVrJBQ8">The Science &amp; Practice of Perfecting Your Sleep | Huberman Lab Essentials</a></td><td>00:35:37</td></tr><tr><td>2025-06-09</td><td><a href="../episodes/2Y_PxTxLFVg" class="internal alias" data-slug="episodes/2Y_PxTxLFVg">Improving Science &amp; Restoring Trust in Public Health | Dr. Jay Bhattacharya</a></td><td>04:26:33</td></tr><tr><td>2025-06-05</td><td><a href="../episodes/2ZkJtIouKzE" class="internal alias" data-slug="episodes/2ZkJtIouKzE">Improving Health With Stronger Brain-Body Connection | Huberman Lab Essentials</a></td><td>00:35:21</td></tr><tr><td>2025-06-02</td><td><a href="../episodes/inUkNZe5H3k" class="internal alias" data-slug="episodes/inUkNZe5H3k">Healing From Grief &amp; Loss | Dr. Mary-Frances O’Connor</a></td><td>02:32:36</td></tr><tr><td>2025-05-29</td><td><a href="../episodes/SCzecagKBjY" class="internal alias" data-slug="episodes/SCzecagKBjY">Essentials: Machines, Creativity &amp; Love | Dr. Lex Fridman</a></td><td>00:42:17</td></tr><tr><td>2025-05-26</td><td><a href="../episodes/ijdpvG24IkE" class="internal alias" data-slug="episodes/ijdpvG24IkE">Behaviors That Alter Your Genes to Improve Your Health &amp; Performance | Dr. Melissa Ilardo</a></td><td>01:52:10</td></tr><tr><td>2025-05-19</td><td><a href="../episodes/HTJ8lDtJOg4" class="internal alias" data-slug="episodes/HTJ8lDtJOg4">The Science &amp; Art of Comedy &amp; Creativity | Tom Segura</a></td><td>02:17:18</td></tr><tr><td>2025-05-15</td><td><a href="../episodes/RSnol_TVrzQ" class="internal alias" data-slug="episodes/RSnol_TVrzQ">Essentials: Understanding &amp; Healing the Mind | Dr. Karl Deisseroth</a></td><td>00:38:34</td></tr><tr><td>2025-05-12</td><td><a href="../episodes/9vQZT2igXN4" class="internal alias" data-slug="episodes/9vQZT2igXN4">How Different Diets Impact Your Health | Dr. Christopher Gardner</a></td><td>02:50:28</td></tr><tr><td>2025-05-08</td><td><a href="../episodes/fSBgDq2ttCw" class="internal alias" data-slug="episodes/fSBgDq2ttCw">How Hearing &amp; Balance Enhance Focus &amp; Learning | Huberman Lab Essentials</a></td><td>00:33:10</td></tr><tr><td>2025-05-05</td><td><a href="../episodes/zpkwefXtbfk" class="internal alias" data-slug="episodes/zpkwefXtbfk">Contracts of Love &amp; Money That Make or Break Relationships | James Sexton</a></td><td>03:38:10</td></tr><tr><td>2025-05-01</td><td><a href="../episodes/_eDg9yOvvrQ" class="internal alias" data-slug="episodes/_eDg9yOvvrQ">How Smell, Taste &amp; Pheromones Shape Behavior | Huberman Lab Essentials</a></td><td>00:34:28</td></tr><tr><td>2025-04-28</td><td><a href="../episodes/6ck9fa6_C8c" class="internal alias" data-slug="episodes/6ck9fa6_C8c">What Pets Actually Want &amp; Need | Dr. Karolina Westlund</a></td><td>02:05:23</td></tr><tr><td>2025-04-25</td><td>[[q-wRvsiGYIs|AMA #19: Collagen vs. Whey Protein, Creatine, Smelling Salts, Stimulants &amp; More]]</td><td>00:18:16</td></tr><tr><td>2025-04-24</td><td><a href="../episodes/ssmwxKPFMFU" class="internal alias" data-slug="episodes/ssmwxKPFMFU">Protocols to Improve Vision &amp; Eyesight | Huberman Lab Essentials</a></td><td>00:29:30</td></tr><tr><td>2025-04-21</td><td><a href="../episodes/J7yn4tJEmJU" class="internal alias" data-slug="episodes/J7yn4tJEmJU">Tools for Overcoming Substance &amp; Behavioral Addictions | Ryan Soave</a></td><td>03:07:32</td></tr><tr><td>2025-04-17</td><td><a href="../episodes/7MEhDlw1e9k" class="internal alias" data-slug="episodes/7MEhDlw1e9k">How to Build Endurance | Huberman Lab Essentials</a></td><td>00:37:26</td></tr><tr><td>2025-04-14</td><td><a href="../episodes/UyneMnERmnI" class="internal alias" data-slug="episodes/UyneMnERmnI">How to Improve Your Vitality &amp; Heal From Disease | Dr. Mark Hyman</a></td><td>02:42:21</td></tr><tr><td>2025-04-10</td><td><a href="../episodes/jgaoLdS82vw" class="internal alias" data-slug="episodes/jgaoLdS82vw">Build Muscle Size, Increase Strength &amp; Improve Recovery | Huberman Lab Essentials</a></td><td>00:27:49</td></tr><tr><td>2025-04-03</td><td><a href="../episodes/f4cdu-QiKHo" class="internal alias" data-slug="episodes/f4cdu-QiKHo">Lose Fat With Science-Based Tools | Huberman Lab Essentials</a></td><td>00:33:36</td></tr><tr><td>2025-03-31</td><td><a href="../episodes/hCyvqRq5YmM" class="internal alias" data-slug="episodes/hCyvqRq5YmM">Transform Your Mental Health With Diet &amp; Lifestyle | Dr. Chris Palmer</a></td><td>03:12:02</td></tr><tr><td>2025-03-27</td><td><a href="../episodes/VnEy78RL2YY" class="internal alias" data-slug="episodes/VnEy78RL2YY">How to Learn Skills Faster | Huberman Lab Essentials</a></td><td>00:30:40</td></tr><tr><td>2025-03-24</td><td><a href="../episodes/_oOEKKiwdDE" class="internal alias" data-slug="episodes/_oOEKKiwdDE">How to Improve Your Teeth &amp; Oral Microbiome for Brain &amp; Body Health | Dr. Staci Whitman</a></td><td>02:54:46</td></tr><tr><td>2025-03-20</td><td><a href="../episodes/5--yogtN6oM" class="internal alias" data-slug="episodes/5--yogtN6oM">Supercharge Exercise Performance &amp; Recovery with Cooling | Huberman Lab Essentials</a></td><td>00:29:01</td></tr><tr><td>2025-03-17</td><td><a href="../episodes/U3cSnzdyyXU" class="internal alias" data-slug="episodes/U3cSnzdyyXU">How to Increase Your Speed, Mobility &amp; Longevity with Plyometrics &amp; Sprinting | Stuart McMillan</a></td><td>03:01:06</td></tr><tr><td>2025-03-13</td><td><a href="../episodes/wFucddupQlk" class="internal alias" data-slug="episodes/wFucddupQlk">Boost Your Energy &amp; Immune System with Cortisol &amp; Adrenaline | Huberman Lab Essentials</a></td><td>00:30:47</td></tr><tr><td>2025-03-10</td><td><a href="../episodes/NtQ-kdLlQiU" class="internal alias" data-slug="episodes/NtQ-kdLlQiU">Improve Focus with Behavioral Tools &amp; Medication for ADHD | Dr. John Kruse</a></td><td>02:38:06</td></tr><tr><td>2025-03-06</td><td><a href="../episodes/Nmo4bxfFzM0" class="internal alias" data-slug="episodes/Nmo4bxfFzM0">How to Control Your Metabolism by Thyroid &amp; Growth Hormone | Huberman Lab Essentials</a></td><td>00:31:26</td></tr><tr><td>2025-03-03</td><td><a href="../episodes/KuuoLT-fq4s" class="internal alias" data-slug="episodes/KuuoLT-fq4s">How to Achieve Inner Peace &amp; Healing | Dr. Richard Schwartz</a></td><td>02:13:08</td></tr><tr><td>2025-02-27</td><td><a href="../episodes/c9JmHOUp6VU" class="internal alias" data-slug="episodes/c9JmHOUp6VU">How to Control Hunger, Eating &amp; Satiety | Huberman Lab Essentials</a></td><td>00:34:53</td></tr><tr><td>2025-02-24</td><td><a href="../episodes/N5DAW8mkJ6Y" class="internal alias" data-slug="episodes/N5DAW8mkJ6Y">How to Enhance Your Immune System | Dr. Roger Seheult</a></td><td>03:28:12</td></tr><tr><td>2025-02-20</td><td><a href="../episodes/v4HRWgwjP_k" class="internal alias" data-slug="episodes/v4HRWgwjP_k">How to Optimize Testosterone &amp; Estrogen | Huberman Lab Essentials</a></td><td>00:32:40</td></tr><tr><td>2025-02-13</td><td><a href="../episodes/FCFQx3cA0Lg" class="internal alias" data-slug="episodes/FCFQx3cA0Lg">How Hormones Shape Sexual Development | Huberman Lab Essentials</a></td><td>00:39:22</td></tr><tr><td>2025-02-10</td><td><a href="../episodes/Z3OpxT65fKw" class="internal alias" data-slug="episodes/Z3OpxT65fKw">How to Build Strength, Endurance &amp; Flexibility at Any Age | Pavel Tsatsouline</a></td><td>04:15:13</td></tr><tr><td>2025-02-06</td><td><a href="../episodes/qdk7XuBgSjw" class="internal alias" data-slug="episodes/qdk7XuBgSjw">The Science of Emotions &amp; Relationships | Huberman Lab Essentials</a></td><td>00:37:46</td></tr><tr><td>2025-02-03</td><td><a href="../episodes/QYAgf_lfio4" class="internal alias" data-slug="episodes/QYAgf_lfio4">Using Your Mind to Control Your Physical Health &amp; Longevity | Dr. Ellen Langer</a></td><td>03:22:20</td></tr><tr><td>2025-01-30</td><td><a href="../episodes/OLQRAMZi--c" class="internal alias" data-slug="episodes/OLQRAMZi--c">How to Increase Motivation &amp; Drive | Huberman Lab Essentials</a></td><td>00:34:08</td></tr><tr><td>2025-01-23</td><td><a href="../episodes/Q4qWzbP0q7I" class="internal alias" data-slug="episodes/Q4qWzbP0q7I">How Foods &amp; Nutrients Control Our Moods | Huberman Lab Essentials</a></td><td>00:32:33</td></tr><tr><td>2025-01-20</td><td><a href="../episodes/3-ukCGQJk2c" class="internal alias" data-slug="episodes/3-ukCGQJk2c">Charting the Architecture of the Universe &amp; Human Life | Dr. Brian Keating</a></td><td>03:07:37</td></tr><tr><td>2025-01-13</td><td><a href="../episodes/qi4VwpEs3LE" class="internal alias" data-slug="episodes/qi4VwpEs3LE">Overcoming Guilt &amp; Building Tenacity in Kids &amp; Adults | Dr. Becky Kennedy</a></td><td>03:38:32</td></tr><tr><td>2025-01-06</td><td><a href="../episodes/J2oqi41dCNc" class="internal alias" data-slug="episodes/J2oqi41dCNc">How to Use Exercise to Improve Your Brain’s Health, Longevity &amp; Performance</a></td><td>01:49:32</td></tr><tr><td>2025-01-02</td><td><a href="../episodes/D97TQuy946k" class="internal alias" data-slug="episodes/D97TQuy946k">Optimize Your Learning &amp; Creativity With Science-Based Tools | Huberman Lab Essentials</a></td><td>00:30:47</td></tr><tr><td>2024-12-30</td><td><a href="../episodes/K0hkhbGYaGQ" class="internal alias" data-slug="episodes/K0hkhbGYaGQ">How to Best Guide Your Life Decisions &amp; Path | Dr. Jordan Peterson</a></td><td>03:51:10</td></tr><tr><td>2024-12-26</td><td><a href="../episodes/jwChiek_aRY" class="internal alias" data-slug="episodes/jwChiek_aRY">How to Learn Faster by Using Failures, Movement &amp; Balance | Huberman Lab Essentials</a></td><td>00:33:52</td></tr><tr><td>2024-12-23</td><td><a href="../episodes/Phm-Alz1Zjo" class="internal alias" data-slug="episodes/Phm-Alz1Zjo">How to Achieve True Happiness Using Science-Based Protocols | Dr. Laurie Santos</a></td><td>03:08:06</td></tr><tr><td>2024-12-19</td><td><a href="../episodes/4AwyVTHEU3s" class="internal alias" data-slug="episodes/4AwyVTHEU3s">How to Focus to Change Your Brain | Huberman Lab Essentials</a></td><td>00:33:45</td></tr><tr><td>2024-12-16</td><td><a href="../episodes/tR73Ny4Dt9s" class="internal alias" data-slug="episodes/tR73Ny4Dt9s">How to Use Curiosity &amp; Focus to Create a Joyful &amp; Meaningful Life | Dr. Bernardo Huberman</a></td><td>03:15:59</td></tr><tr><td>2024-12-12</td><td><a href="../episodes/hF32FvBH4gI" class="internal alias" data-slug="episodes/hF32FvBH4gI">Understand and Use Dreams to Learn and Forget | Huberman Lab Essentials</a></td><td>00:34:57</td></tr><tr><td>2024-12-02</td><td><a href="../episodes/z5W74QC3v2I" class="internal alias" data-slug="episodes/z5W74QC3v2I">Understand &amp; Apply the Psychology of Money to Gain Greater Happiness | Morgan Housel</a></td><td>02:15:35</td></tr><tr><td>2024-11-28</td><td><a href="../episodes/q-H_A_dQUxQ" class="internal alias" data-slug="episodes/q-H_A_dQUxQ">Using Science to Optimize Sleep, Learning &amp; Metabolism | Huberman Lab Essentials</a></td><td>00:32:47</td></tr><tr><td>2024-11-25</td><td><a href="../episodes/Og56hmAspV8" class="internal alias" data-slug="episodes/Og56hmAspV8">How to Control Your Inner Voice &amp; Increase Your Resilience | Dr. Ethan Kross</a></td><td>03:09:02</td></tr><tr><td>2024-11-14</td><td><a href="../episodes/HiyzzcuaAac" class="internal alias" data-slug="episodes/HiyzzcuaAac">How Your Brain Works &amp; Changes | Huberman Lab Essentials</a></td><td>00:34:56</td></tr><tr><td>2024-10-21</td><td><a href="../episodes/vfRtLI6cJrk" class="internal alias" data-slug="episodes/vfRtLI6cJrk">The Effects of Microplastics on Your Health</a></td><td>01:36:53</td></tr><tr><td>2024-08-26</td><td><a href="../episodes/ddq8JIMhz7c" class="internal alias" data-slug="episodes/ddq8JIMhz7c">Optimal Protocols for Studying &amp; Learning</a></td><td>01:41:39</td></tr><tr><td>2024-04-29</td><td><a href="../episodes/PVmQOLYckKQ" class="internal alias" data-slug="episodes/PVmQOLYckKQ">Protocols to Strengthen &amp; Pain Proof Your Back</a></td><td>02:08:04</td></tr><tr><td>2024-04-01</td><td><a href="../episodes/zU5EYw06wtw" class="internal alias" data-slug="episodes/zU5EYw06wtw">Benefits &amp; Risks of Peptide Therapeutics for Physical &amp; Mental Health</a></td><td>01:26:41</td></tr><tr><td>2024-03-04</td><td><a href="../episodes/gdUNjPijwA8" class="internal alias" data-slug="episodes/gdUNjPijwA8">How Placebo Effects Work to Change Our Biology &amp; Psychology</a></td><td>01:18:16</td></tr><tr><td>2024-02-12</td><td><a href="../episodes/zVCaYyUWWSw" class="internal alias" data-slug="episodes/zVCaYyUWWSw">How to Improve Oral Health &amp; Its Critical Role in Brain &amp; Body Health</a></td><td>02:00:27</td></tr><tr><td>2024-01-29</td><td><a href="../episodes/CQlTmOFM4Qs" class="internal alias" data-slug="episodes/CQlTmOFM4Qs">Tools to Enhance Working Memory &amp; Attention</a></td><td>01:31:12</td></tr><tr><td>2024-01-01</td><td><a href="../episodes/nDLb8_wgX50" class="internal alias" data-slug="episodes/nDLb8_wgX50">How to Build Immense Inner Strength | David Goggins</a></td><td>02:37:35</td></tr><tr><td>2023-11-20</td><td><a href="../episodes/wAZn9dF3XTo" class="internal alias" data-slug="episodes/wAZn9dF3XTo">A Science-Supported Journaling Protocol to Improve Mental &amp; Physical Health</a></td><td>01:38:21</td></tr><tr><td>2023-10-30</td><td><a href="../episodes/CJIXbibQ0jI" class="internal alias" data-slug="episodes/CJIXbibQ0jI">Mental Health Toolkit: Tools to Bolster Your Mood &amp; Mental Health</a></td><td>02:04:11</td></tr><tr><td>2023-10-09</td><td><a href="../episodes/cwakOgHIT0E" class="internal alias" data-slug="episodes/cwakOgHIT0E">How to Increase Your Willpower &amp; Tenacity | Huberman Lab Podcast</a></td><td>02:07:59</td></tr><tr><td>2023-09-18</td><td><a href="../episodes/gveDhZW-rUk" class="internal alias" data-slug="episodes/gveDhZW-rUk">How to Use Music to Boost Motivation, Mood &amp; Improve Learning | Huberman Lab Podcast</a></td><td>01:44:25</td></tr><tr><td>2023-08-07</td><td><a href="../episodes/Rxmv7rT9leo" class="internal alias" data-slug="episodes/Rxmv7rT9leo">Ketamine: Benefits and Risks for Depression, PTSD &amp; Neuroplasticity | Huberman Lab Podcast</a></td><td>01:42:40</td></tr><tr><td>2023-07-03</td><td><a href="../episodes/LYYyQcAJZfk" class="internal alias" data-slug="episodes/LYYyQcAJZfk">Science-Supported Tools to Accelerate Your Fitness Goals</a></td><td>01:35:40</td></tr><tr><td>2023-06-12</td><td><a href="../episodes/slUCmZJDXrk" class="internal alias" data-slug="episodes/slUCmZJDXrk">The Science of MDMA &amp; Its Therapeutic Uses: Benefits &amp; Risks | Huberman Lab Podcast</a></td><td>02:17:34</td></tr><tr><td>2023-05-08</td><td><a href="../episodes/eIxVfln02Ss" class="internal alias" data-slug="episodes/eIxVfln02Ss">How Psilocybin Can Rewire Our Brain, Its Therapeutic Benefits &amp; Its Risks</a></td><td>02:09:01</td></tr><tr><td>2023-04-10</td><td><a href="../episodes/6ZrlsVx85ek" class="internal alias" data-slug="episodes/6ZrlsVx85ek">The Science of Healthy Hair, Hair Loss and How to Regrow Hair</a></td><td>02:04:47</td></tr><tr><td>2023-03-27</td><td><a href="../episodes/K-TW2Chpz4k" class="internal alias" data-slug="episodes/K-TW2Chpz4k">Leverage Dopamine to Overcome Procrastination &amp; Optimize Effort</a></td><td>01:58:49</td></tr><tr><td>2022-10-31</td><td><a href="../episodes/wTBSGgbIvsY" class="internal alias" data-slug="episodes/wTBSGgbIvsY">How Meditation Works &amp; Science-Based Effective Meditations</a></td><td>02:26:01</td></tr><tr><td>2022-09-19</td><td><a href="../episodes/uXs-zPc63kM" class="internal alias" data-slug="episodes/uXs-zPc63kM">Nicotine’s Effects on the Brain &amp; Body &amp; How to Quit Smoking or Vaping</a></td><td>01:53:37</td></tr><tr><td>2022-08-22</td><td><a href="../episodes/DkS1pkKpILY" class="internal alias" data-slug="episodes/DkS1pkKpILY">What Alcohol Does to Your Body, Brain &amp; Health</a></td><td>02:01:02</td></tr><tr><td>2022-08-08</td><td><a href="../episodes/h2aWYjSA1Jc" class="internal alias" data-slug="episodes/h2aWYjSA1Jc">Sleep Toolkit: Tools for Optimizing Sleep &amp; Sleep-Wake Timing</a></td><td>01:41:54</td></tr><tr><td>2022-07-25</td><td><a href="../episodes/m_OazsImOiI" class="internal alias" data-slug="episodes/m_OazsImOiI">The Science &amp; Treatment of Bipolar Disorder</a></td><td>02:19:41</td></tr><tr><td>2022-06-27</td><td><a href="../episodes/OadokY8fcAA" class="internal alias" data-slug="episodes/OadokY8fcAA">The Science &amp; Treatment of Obsessive Compulsive Disorder (OCD)</a></td><td>02:33:35</td></tr><tr><td>2022-05-09</td><td><a href="../episodes/RBK5KLA5Jjg" class="internal alias" data-slug="episodes/RBK5KLA5Jjg">Understanding &amp; Controlling Anger &amp; Aggression</a></td><td>01:30:53</td></tr><tr><td>2022-04-25</td><td><a href="../episodes/EQ3GjpGq5Y8" class="internal alias" data-slug="episodes/EQ3GjpGq5Y8">The Science &amp; Health Benefits of Deliberate Heat Exposure</a></td><td>01:53:10</td></tr></tbody></table></div></article><div class="page-listing"><p>137 items under this folder.</p><div><ul class="section-ul"><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-01-12T08:00:00.000Z">Jan 12, 2026</time></p><div class="desc"><h3><a href="../episodes/t6RCTP4fc9Q" class="internal">How to Overcome Addiction to Substances or Behaviors | Dr. Keith Humphreys</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-01-08T08:00:00.000Z">Jan 08, 2026</time></p><div class="desc"><h3><a href="../episodes/23t_ynq2tmk" class="internal">Optimizing Workspace for Productivity, Focus &amp; Creativity | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-01-01T08:00:00.000Z">Jan 01, 2026</time></p><div class="desc"><h3><a href="../episodes/fh2dBmLN-ZM" class="internal">Essentials: Micronutrients for Health &amp; Longevity | Dr. Rhonda Patrick</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-12-29T08:00:00.000Z">Dec 29, 2025</time></p><div class="desc"><h3><a href="../episodes/qGb7hYMlA3o" class="internal">Defining Healthy Masculinity &amp; How to Build It | Terry Real</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-12-25T08:00:00.000Z">Dec 25, 2025</time></p><div class="desc"><h3><a href="../episodes/fYhY-vC000A" class="internal">Essentials: How to Optimize Your Hormones for Health &amp; Vitality | Dr. Kyle Gillett</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-12-22T08:00:00.000Z">Dec 22, 2025</time></p><div class="desc"><h3><a href="../episodes/zHyvVajsqMw" class="internal">Transform Pain &amp; Trauma Into Creative Expression | David Choe</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-12-18T08:00:00.000Z">Dec 18, 2025</time></p><div class="desc"><h3><a href="../episodes/zYuw-8pwnp8" class="internal">How to Set &amp; Achieve Goals | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-12-15T08:00:00.000Z">Dec 15, 2025</time></p><div class="desc"><h3><a href="../episodes/nMkQUlBtFlk" class="internal">Improve Energy &amp; Longevity by Optimizing Mitochondria | Dr. Martin Picard</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-12-11T08:00:00.000Z">Dec 11, 2025</time></p><div class="desc"><h3><a href="../episodes/n_MVhE63ZQQ" class="internal">Essentials: Build a Healthy Gut Microbiome | Dr. Justin Sonnenburg</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-12-04T08:00:00.000Z">Dec 04, 2025</time></p><div class="desc"><h3><a href="../episodes/HXuj7wAt7u8" class="internal">The Science of Making &amp; Breaking Habits | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-12-01T08:00:00.000Z">Dec 01, 2025</time></p><div class="desc"><h3><a href="../episodes/iT8W6kaD-RA" class="internal">Dr. Glen Jeffery: Using Red Light to Improve Your Health &amp; the Harmful Effects of LEDs</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-27T08:00:00.000Z">Nov 27, 2025</time></p><div class="desc"><h3><a href="../episodes/SOo4yNoaAoc" class="internal">Essentials: Using Hypnosis to Enhance Mental &amp; Physical Health &amp; Performance | Dr. David Spiegel</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-24T08:00:00.000Z">Nov 24, 2025</time></p><div class="desc"><h3><a href="../episodes/hMzfGZnaPN8" class="internal">Female Hormone Health, PCOS, Endometriosis, Fertility &amp; Breast Cancer | Dr. Thaïs Aliabadi</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-20T08:00:00.000Z">Nov 20, 2025</time></p><div class="desc"><h3><a href="../episodes/25PtptE7mWk" class="internal">Essentials: Science of Building Strong Social Bonds with Family, Friends &amp; Romantic Partners</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-17T08:00:00.000Z">Nov 17, 2025</time></p><div class="desc"><h3><a href="../episodes/ZtTUfMHuioA" class="internal">How to Speak Clearly &amp; With Confidence | Matt Abrahams</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-13T08:00:00.000Z">Nov 13, 2025</time></p><div class="desc"><h3><a href="../episodes/Y3NUEPNZDMA" class="internal">Essentials: Breathing for Mental &amp; Physical Health &amp; Performance | Dr. Jack Feldman</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-10T08:00:00.000Z">Nov 10, 2025</time></p><div class="desc"><h3><a href="../episodes/tb6ApBIXr1k" class="internal">How Your Thoughts Are Built &amp; How You Can Shape Them | Dr. Jennifer Groh</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-06T08:00:00.000Z">Nov 06, 2025</time></p><div class="desc"><h3><a href="../episodes/tpntW9Tte4M" class="internal">Erasing Fears &amp; Traumas Using Modern Neuroscience | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-11-03T08:00:00.000Z">Nov 03, 2025</time></p><div class="desc"><h3><a href="../episodes/PCbD3hFyfCk" class="internal">How A Doctor Cured His Own Terminal Disease | Dr. David Fajgenbaum</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-10-30T07:00:00.000Z">Oct 30, 2025</time></p><div class="desc"><h3><a href="../episodes/Ykvkg2Jz3X8" class="internal">Essentials: The Biology of Slowing &amp; Reversing Aging | Dr. David Sinclair</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-10-27T07:00:00.000Z">Oct 27, 2025</time></p><div class="desc"><h3><a href="../episodes/KBkl3I645c8" class="internal">Improve Your Lymphatic System for Overall Health &amp; Appearance</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-10-23T07:00:00.000Z">Oct 23, 2025</time></p><div class="desc"><h3><a href="../episodes/9gJLWk3W5GQ" class="internal">The Science of Gratitude &amp; How to Build a Gratitude Practice | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-10-20T07:00:00.000Z">Oct 20, 2025</time></p><div class="desc"><h3><a href="../episodes/cpKsogGdem4" class="internal">How to Overcome Inner Resistance | Steven Pressfield</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-10-16T07:00:00.000Z">Oct 16, 2025</time></p><div class="desc"><h3><a href="../episodes/-zI0ZgKM0xA" class="internal">Essentials: How Your Brain Functions &amp; Interprets the World | Dr. David Berson</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-10-13T07:00:00.000Z">Oct 13, 2025</time></p><div class="desc"><h3><a href="../episodes/xGmGBFpmdhQ" class="internal">Protect &amp; Improve Your Hearing &amp; Brain Health | Dr. Konstantina Stankovic</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-10-09T07:00:00.000Z">Oct 09, 2025</time></p><div class="desc"><h3><a href="../episodes/vXTK0Ac9i1Q" class="internal">Time Perception, Memory &amp; Focus | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-10-06T07:00:00.000Z">Oct 06, 2025</time></p><div class="desc"><h3><a href="../episodes/WwRc2SEo-VI" class="internal">How to Make Yourself Unbreakable | DJ Shipley</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-10-02T07:00:00.000Z">Oct 02, 2025</time></p><div class="desc"><h3><a href="../episodes/VqiPNN4Jblk" class="internal">Essentials: How Humans Select &amp; Keep Romantic Partners in the Short &amp; Long Term | Dr. David Buss</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-09-29T07:00:00.000Z">Sep 29, 2025</time></p><div class="desc"><h3><a href="../episodes/MlmFj1-mOtg" class="internal">Enhance Your Learning Speed &amp; Health Using Neuroscience Based Protocols | Dr. Poppy Crum</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-09-25T07:00:00.000Z">Sep 25, 2025</time></p><div class="desc"><h3><a href="../episodes/pN1UL1M9sqc" class="internal">Using Your Nervous System to Enhance Your Immune System | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-09-22T07:00:00.000Z">Sep 22, 2025</time></p><div class="desc"><h3><a href="../episodes/7SIjcX5B1Vs" class="internal">Build Your Ideal Physique | Dr. Bret Contreras</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-09-18T07:00:00.000Z">Sep 18, 2025</time></p><div class="desc"><h3><a href="../episodes/dy_iLCJggO0" class="internal">Essentials: How to Exercise for Strength Gains &amp; Hormone Optimization | Dr. Duncan French</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-09-15T07:00:00.000Z">Sep 15, 2025</time></p><div class="desc"><h3><a href="../episodes/2t4vswC-3mY" class="internal">How to Expand Your Consciousness | Dr. Christof Koch</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-09-11T07:00:00.000Z">Sep 11, 2025</time></p><div class="desc"><h3><a href="../episodes/cIla9axQRyM" class="internal">Food &amp; Supplements for Brain Health &amp; Cognitive Performance | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-09-08T07:00:00.000Z">Sep 08, 2025</time></p><div class="desc"><h3><a href="../episodes/cjAvD-U5so0" class="internal">Transform Your Metabolic Health &amp; Longevity by Knowing Your Unique Biology | Dr. Michael Snyder</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-09-04T07:00:00.000Z">Sep 04, 2025</time></p><div class="desc"><h3><a href="../episodes/alVWRl_X_AA" class="internal">Essentials: Science of Mindsets for Health &amp; Performance | Dr. Alia Crum</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-09-01T07:00:00.000Z">Sep 01, 2025</time></p><div class="desc"><h3><a href="../episodes/4TsOnsPDKKY" class="internal">How to Set &amp; Achieve Massive Goals | Alex Honnold</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-08-28T07:00:00.000Z">Aug 28, 2025</time></p><div class="desc"><h3><a href="../episodes/D61jJJPIQeo" class="internal">Effects of Fasting &amp; Time Restricted Eating on Fat Loss &amp; Health | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-08-25T07:00:00.000Z">Aug 25, 2025</time></p><div class="desc"><h3><a href="../episodes/Whe2Jh9q6jI" class="internal">Science &amp; Health Benefits of Belief in God &amp; Religion | Dr. David DeSteno</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-08-21T07:00:00.000Z">Aug 21, 2025</time></p><div class="desc"><h3><a href="../episodes/2XMb3MD6g6Q" class="internal">Essentials: Timing Light for Better Sleep, Energy &amp; Mood | Dr. Samer Hattar</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-08-18T07:00:00.000Z">Aug 18, 2025</time></p><div class="desc"><h3><a href="../episodes/H4mMZ0vliMo" class="internal">Curing Autism, Epilepsy &amp; Schizophrenia with Stem Cells | Dr. Sergiu Pașca</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-08-14T07:00:00.000Z">Aug 14, 2025</time></p><div class="desc"><h3><a href="../episodes/XeN6eGO6FVQ" class="internal">Controlling Your Dopamine for Motivation, Focus &amp; Satisfaction | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-08-11T07:00:00.000Z">Aug 11, 2025</time></p><div class="desc"><h3><a href="../episodes/rcAyjg-oy84" class="internal">How to Rewire Your Brain &amp; Learn Faster | Dr. Michael Kilgard</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-08-07T07:00:00.000Z">Aug 07, 2025</time></p><div class="desc"><h3><a href="../episodes/aZklQpFa2kE" class="internal">Essentials: Increase Strength &amp; Endurance with Cooling Protocols | Dr. Craig Heller</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-08-04T07:00:00.000Z">Aug 04, 2025</time></p><div class="desc"><h3><a href="../episodes/Ibj1k3IZTNU" class="internal">How to Control Your Cortisol &amp; Overcome Burnout</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-07-31T07:00:00.000Z">Jul 31, 2025</time></p><div class="desc"><h3><a href="../episodes/LAwBdRR4wQk" class="internal">ADHD &amp; How Anyone Can Improve Their Focus | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-07-28T07:00:00.000Z">Jul 28, 2025</time></p><div class="desc"><h3><a href="../episodes/k8SBJzsIWAo" class="internal">Male vs. Female Brain Differences &amp; How They Arise From Genes &amp; Hormones | Dr. Nirao Shah</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-07-24T07:00:00.000Z">Jul 24, 2025</time></p><div class="desc"><h3><a href="../episodes/OvHbhzArbfE" class="internal">Essentials: Psychedelics for Treating Mental Disorders | Dr. Matthew Johnson</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-07-21T07:00:00.000Z">Jul 21, 2025</time></p><div class="desc"><h3><a href="../episodes/gyE6Z4GLEeM" class="internal">Health Effects &amp; Risks of Kratom, Opioids &amp; Other Natural Occurring Medicines | Dr. Chris McCurdy</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-07-17T07:00:00.000Z">Jul 17, 2025</time></p><div class="desc"><h3><a href="../episodes/mJv1_esiJ8g" class="internal">Healthy Eating &amp; Eating Disorders - Anorexia, Bulimia, Binging | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-07-14T07:00:00.000Z">Jul 14, 2025</time></p><div class="desc"><h3><a href="../episodes/ewnvjnuFTOY" class="internal">How Nature &amp; Other Physical Environments Impact Your Focus, Cognition &amp; Health | Dr. Marc Berman</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-07-10T07:00:00.000Z">Jul 10, 2025</time></p><div class="desc"><h3><a href="../episodes/WxtxzRdJFTI" class="internal">Essentials: Science of Stress, Testosterone, Aggression &amp; Motivation | Dr. Robert Sapolsky</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-07-07T07:00:00.000Z">Jul 07, 2025</time></p><div class="desc"><h3><a href="../episodes/h_1zlead9ZU" class="internal">How to Lose Fat &amp; Gain Muscle With Nutrition | Alan Aragon</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-07-03T07:00:00.000Z">Jul 03, 2025</time></p><div class="desc"><h3><a href="../episodes/HWcphoKlbxY" class="internal">Understanding &amp; Conquering Depression | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-06-30T07:00:00.000Z">Jun 30, 2025</time></p><div class="desc"><h3><a href="../episodes/zqANjUGarAw" class="internal">The Chemistry of Food &amp; Taste | Dr. Harold McGee</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-06-26T07:00:00.000Z">Jun 26, 2025</time></p><div class="desc"><h3><a href="../episodes/i4gvIeA3RcI" class="internal">Essentials: Understanding &amp; Treating Addiction | Dr. Anna Lembke</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-06-23T07:00:00.000Z">Jun 23, 2025</time></p><div class="desc"><h3><a href="../episodes/CLbVW3Pj46A" class="internal">Control Your Vagus Nerve to Improve Mood, Alertness &amp; Neuroplasticity</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-06-19T07:00:00.000Z">Jun 19, 2025</time></p><div class="desc"><h3><a href="../episodes/vm1GbSPx48g" class="internal">How to Control Your Sense of Pain &amp; Pleasure | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-06-16T07:00:00.000Z">Jun 16, 2025</time></p><div class="desc"><h3><a href="../episodes/SsKkZTjUJEk" class="internal">How to Grow From Doing Hard Things | Michael Easter</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-06-12T07:00:00.000Z">Jun 12, 2025</time></p><div class="desc"><h3><a href="../episodes/JaRGJVrJBQ8" class="internal">The Science &amp; Practice of Perfecting Your Sleep | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-06-09T07:00:00.000Z">Jun 09, 2025</time></p><div class="desc"><h3><a href="../episodes/2Y_PxTxLFVg" class="internal">Improving Science &amp; Restoring Trust in Public Health | Dr. Jay Bhattacharya</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-06-05T07:00:00.000Z">Jun 05, 2025</time></p><div class="desc"><h3><a href="../episodes/2ZkJtIouKzE" class="internal">Improving Health With Stronger Brain-Body Connection | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-06-02T07:00:00.000Z">Jun 02, 2025</time></p><div class="desc"><h3><a href="../episodes/inUkNZe5H3k" class="internal">Healing From Grief &amp; Loss | Dr. Mary-Frances O'Connor</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-05-29T07:00:00.000Z">May 29, 2025</time></p><div class="desc"><h3><a href="../episodes/SCzecagKBjY" class="internal">Essentials: Machines, Creativity &amp; Love | Dr. Lex Fridman</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-05-26T07:00:00.000Z">May 26, 2025</time></p><div class="desc"><h3><a href="../episodes/ijdpvG24IkE" class="internal">Behaviors That Alter Your Genes to Improve Your Health &amp; Performance | Dr. Melissa Ilardo</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-05-19T07:00:00.000Z">May 19, 2025</time></p><div class="desc"><h3><a href="../episodes/HTJ8lDtJOg4" class="internal">The Science &amp; Art of Comedy &amp; Creativity | Tom Segura</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-05-15T07:00:00.000Z">May 15, 2025</time></p><div class="desc"><h3><a href="../episodes/RSnol_TVrzQ" class="internal">Essentials: Understanding &amp; Healing the Mind | Dr. Karl Deisseroth</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-05-12T07:00:00.000Z">May 12, 2025</time></p><div class="desc"><h3><a href="../episodes/9vQZT2igXN4" class="internal">How Different Diets Impact Your Health | Dr. Christopher Gardner</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-05-08T07:00:00.000Z">May 08, 2025</time></p><div class="desc"><h3><a href="../episodes/fSBgDq2ttCw" class="internal">How Hearing &amp; Balance Enhance Focus &amp; Learning | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-05-05T07:00:00.000Z">May 05, 2025</time></p><div class="desc"><h3><a href="../episodes/zpkwefXtbfk" class="internal">Contracts of Love &amp; Money That Make or Break Relationships | James Sexton</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-05-01T07:00:00.000Z">May 01, 2025</time></p><div class="desc"><h3><a href="../episodes/_eDg9yOvvrQ" class="internal">How Smell, Taste &amp; Pheromones Shape Behavior | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-04-28T07:00:00.000Z">Apr 28, 2025</time></p><div class="desc"><h3><a href="../episodes/6ck9fa6_C8c" class="internal">What Pets Actually Want &amp; Need | Dr. Karolina Westlund</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-04-25T07:00:00.000Z">Apr 25, 2025</time></p><div class="desc"><h3><a href="../episodes/q-wRvsiGYIs" class="internal">AMA #19: Collagen vs. Whey Protein, Creatine, Smelling Salts, Stimulants &amp; More</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-04-24T07:00:00.000Z">Apr 24, 2025</time></p><div class="desc"><h3><a href="../episodes/ssmwxKPFMFU" class="internal">Protocols to Improve Vision &amp; Eyesight | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-04-21T07:00:00.000Z">Apr 21, 2025</time></p><div class="desc"><h3><a href="../episodes/J7yn4tJEmJU" class="internal">Tools for Overcoming Substance &amp; Behavioral Addictions | Ryan Soave</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-04-17T07:00:00.000Z">Apr 17, 2025</time></p><div class="desc"><h3><a href="../episodes/7MEhDlw1e9k" class="internal">How to Build Endurance | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-04-14T07:00:00.000Z">Apr 14, 2025</time></p><div class="desc"><h3><a href="../episodes/UyneMnERmnI" class="internal">How to Improve Your Vitality &amp; Heal From Disease | Dr. Mark Hyman</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-04-10T07:00:00.000Z">Apr 10, 2025</time></p><div class="desc"><h3><a href="../episodes/jgaoLdS82vw" class="internal">Build Muscle Size, Increase Strength &amp; Improve Recovery | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-04-03T07:00:00.000Z">Apr 03, 2025</time></p><div class="desc"><h3><a href="../episodes/f4cdu-QiKHo" class="internal">Lose Fat With Science-Based Tools | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-03-31T07:00:00.000Z">Mar 31, 2025</time></p><div class="desc"><h3><a href="../episodes/hCyvqRq5YmM" class="internal">Transform Your Mental Health With Diet &amp; Lifestyle | Dr. Chris Palmer</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-03-27T07:00:00.000Z">Mar 27, 2025</time></p><div class="desc"><h3><a href="../episodes/VnEy78RL2YY" class="internal">How to Learn Skills Faster | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-03-24T07:00:00.000Z">Mar 24, 2025</time></p><div class="desc"><h3><a href="../episodes/_oOEKKiwdDE" class="internal">How to Improve Your Teeth &amp; Oral Microbiome for Brain &amp; Body Health | Dr. Staci Whitman</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-03-20T07:00:00.000Z">Mar 20, 2025</time></p><div class="desc"><h3><a href="../episodes/5--yogtN6oM" class="internal">Supercharge Exercise Performance &amp; Recovery with Cooling | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-03-17T07:00:00.000Z">Mar 17, 2025</time></p><div class="desc"><h3><a href="../episodes/U3cSnzdyyXU" class="internal">How to Increase Your Speed, Mobility &amp; Longevity with Plyometrics &amp; Sprinting | Stuart McMillan</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-03-13T07:00:00.000Z">Mar 13, 2025</time></p><div class="desc"><h3><a href="../episodes/wFucddupQlk" class="internal">Boost Your Energy &amp; Immune System with Cortisol &amp; Adrenaline | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-03-10T07:00:00.000Z">Mar 10, 2025</time></p><div class="desc"><h3><a href="../episodes/NtQ-kdLlQiU" class="internal">Improve Focus with Behavioral Tools &amp; Medication for ADHD | Dr. John Kruse</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-03-06T08:00:00.000Z">Mar 06, 2025</time></p><div class="desc"><h3><a href="../episodes/Nmo4bxfFzM0" class="internal">How to Control Your Metabolism by Thyroid &amp; Growth Hormone | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-03-03T08:00:00.000Z">Mar 03, 2025</time></p><div class="desc"><h3><a href="../episodes/KuuoLT-fq4s" class="internal">How to Achieve Inner Peace &amp; Healing | Dr. Richard Schwartz</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-02-27T08:00:00.000Z">Feb 27, 2025</time></p><div class="desc"><h3><a href="../episodes/c9JmHOUp6VU" class="internal">How to Control Hunger, Eating &amp; Satiety | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-02-24T08:00:00.000Z">Feb 24, 2025</time></p><div class="desc"><h3><a href="../episodes/N5DAW8mkJ6Y" class="internal">How to Enhance Your Immune System | Dr. Roger Seheult</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-02-20T08:00:00.000Z">Feb 20, 2025</time></p><div class="desc"><h3><a href="../episodes/v4HRWgwjP_k" class="internal">How to Optimize Testosterone &amp; Estrogen | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-02-13T08:00:00.000Z">Feb 13, 2025</time></p><div class="desc"><h3><a href="../episodes/FCFQx3cA0Lg" class="internal">How Hormones Shape Sexual Development | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-02-10T08:00:00.000Z">Feb 10, 2025</time></p><div class="desc"><h3><a href="../episodes/Z3OpxT65fKw" class="internal">How to Build Strength, Endurance &amp; Flexibility at Any Age | Pavel Tsatsouline</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-02-06T08:00:00.000Z">Feb 06, 2025</time></p><div class="desc"><h3><a href="../episodes/qdk7XuBgSjw" class="internal">The Science of Emotions &amp; Relationships | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-02-03T08:00:00.000Z">Feb 03, 2025</time></p><div class="desc"><h3><a href="../episodes/QYAgf_lfio4" class="internal">Using Your Mind to Control Your Physical Health &amp; Longevity | Dr. Ellen Langer</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-01-30T08:00:00.000Z">Jan 30, 2025</time></p><div class="desc"><h3><a href="../episodes/OLQRAMZi--c" class="internal">How to Increase Motivation &amp; Drive | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-01-23T08:00:00.000Z">Jan 23, 2025</time></p><div class="desc"><h3><a href="../episodes/Q4qWzbP0q7I" class="internal">How Foods &amp; Nutrients Control Our Moods | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-01-20T08:00:00.000Z">Jan 20, 2025</time></p><div class="desc"><h3><a href="../episodes/3-ukCGQJk2c" class="internal">Charting the Architecture of the Universe &amp; Human Life | Dr. Brian Keating</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-01-13T08:00:00.000Z">Jan 13, 2025</time></p><div class="desc"><h3><a href="../episodes/qi4VwpEs3LE" class="internal">Overcoming Guilt &amp; Building Tenacity in Kids &amp; Adults | Dr. Becky Kennedy</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-01-06T08:00:00.000Z">Jan 06, 2025</time></p><div class="desc"><h3><a href="../episodes/J2oqi41dCNc" class="internal">How to Use Exercise to Improve Your Brain's Health, Longevity &amp; Performance</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2025-01-02T08:00:00.000Z">Jan 02, 2025</time></p><div class="desc"><h3><a href="../episodes/D97TQuy946k" class="internal">Optimize Your Learning &amp; Creativity With Science-Based Tools | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-12-30T08:00:00.000Z">Dec 30, 2024</time></p><div class="desc"><h3><a href="../episodes/K0hkhbGYaGQ" class="internal">How to Best Guide Your Life Decisions &amp; Path | Dr. Jordan Peterson</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-12-26T08:00:00.000Z">Dec 26, 2024</time></p><div class="desc"><h3><a href="../episodes/jwChiek_aRY" class="internal">How to Learn Faster by Using Failures, Movement &amp; Balance | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-12-23T08:00:00.000Z">Dec 23, 2024</time></p><div class="desc"><h3><a href="../episodes/Phm-Alz1Zjo" class="internal">How to Achieve True Happiness Using Science-Based Protocols | Dr. Laurie Santos</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-12-19T08:00:00.000Z">Dec 19, 2024</time></p><div class="desc"><h3><a href="../episodes/4AwyVTHEU3s" class="internal">How to Focus to Change Your Brain | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-12-16T08:00:00.000Z">Dec 16, 2024</time></p><div class="desc"><h3><a href="../episodes/tR73Ny4Dt9s" class="internal">How to Use Curiosity &amp; Focus to Create a Joyful &amp; Meaningful Life | Dr. Bernardo Huberman</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-12-12T08:00:00.000Z">Dec 12, 2024</time></p><div class="desc"><h3><a href="../episodes/hF32FvBH4gI" class="internal">Understand and Use Dreams to Learn and Forget | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-12-02T08:00:00.000Z">Dec 02, 2024</time></p><div class="desc"><h3><a href="../episodes/z5W74QC3v2I" class="internal">Understand &amp; Apply the Psychology of Money to Gain Greater Happiness | Morgan Housel</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-11-28T08:00:00.000Z">Nov 28, 2024</time></p><div class="desc"><h3><a href="../episodes/q-H_A_dQUxQ" class="internal">Using Science to Optimize Sleep, Learning &amp; Metabolism | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-11-25T08:00:00.000Z">Nov 25, 2024</time></p><div class="desc"><h3><a href="../episodes/Og56hmAspV8" class="internal">How to Control Your Inner Voice &amp; Increase Your Resilience | Dr. Ethan Kross</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-11-14T08:00:00.000Z">Nov 14, 2024</time></p><div class="desc"><h3><a href="../episodes/HiyzzcuaAac" class="internal">How Your Brain Works &amp; Changes | Huberman Lab Essentials</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-10-21T07:00:00.000Z">Oct 21, 2024</time></p><div class="desc"><h3><a href="../episodes/vfRtLI6cJrk" class="internal">The Effects of Microplastics on Your Health</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-08-26T07:00:00.000Z">Aug 26, 2024</time></p><div class="desc"><h3><a href="../episodes/ddq8JIMhz7c" class="internal">Optimal Protocols for Studying &amp; Learning</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-04-29T07:00:00.000Z">Apr 29, 2024</time></p><div class="desc"><h3><a href="../episodes/PVmQOLYckKQ" class="internal">Protocols to Strengthen &amp; Pain Proof Your Back</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-04-01T07:00:00.000Z">Apr 01, 2024</time></p><div class="desc"><h3><a href="../episodes/zU5EYw06wtw" class="internal">Benefits &amp; Risks of Peptide Therapeutics for Physical &amp; Mental Health</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-03-04T08:00:00.000Z">Mar 04, 2024</time></p><div class="desc"><h3><a href="../episodes/gdUNjPijwA8" class="internal">How Placebo Effects Work to Change Our Biology &amp; Psychology</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-02-12T08:00:00.000Z">Feb 12, 2024</time></p><div class="desc"><h3><a href="../episodes/zVCaYyUWWSw" class="internal">How to Improve Oral Health &amp; Its Critical Role in Brain &amp; Body Health</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-01-29T08:00:00.000Z">Jan 29, 2024</time></p><div class="desc"><h3><a href="../episodes/CQlTmOFM4Qs" class="internal">Tools to Enhance Working Memory &amp; Attention</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2024-01-01T08:00:00.000Z">Jan 01, 2024</time></p><div class="desc"><h3><a href="../episodes/nDLb8_wgX50" class="internal">How to Build Immense Inner Strength | David Goggins</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-11-20T08:00:00.000Z">Nov 20, 2023</time></p><div class="desc"><h3><a href="../episodes/wAZn9dF3XTo" class="internal">A Science-Supported Journaling Protocol to Improve Mental &amp; Physical Health</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-10-30T07:00:00.000Z">Oct 30, 2023</time></p><div class="desc"><h3><a href="../episodes/CJIXbibQ0jI" class="internal">Mental Health Toolkit: Tools to Bolster Your Mood &amp; Mental Health</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-10-09T07:00:00.000Z">Oct 09, 2023</time></p><div class="desc"><h3><a href="../episodes/cwakOgHIT0E" class="internal">How to Increase Your Willpower &amp; Tenacity | Huberman Lab Podcast</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-09-18T07:00:00.000Z">Sep 18, 2023</time></p><div class="desc"><h3><a href="../episodes/gveDhZW-rUk" class="internal">How to Use Music to Boost Motivation, Mood &amp; Improve Learning | Huberman Lab Podcast</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-08-07T07:00:00.000Z">Aug 07, 2023</time></p><div class="desc"><h3><a href="../episodes/Rxmv7rT9leo" class="internal">Ketamine: Benefits and Risks for Depression, PTSD &amp; Neuroplasticity | Huberman Lab Podcast</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-07-03T07:00:00.000Z">Jul 03, 2023</time></p><div class="desc"><h3><a href="../episodes/LYYyQcAJZfk" class="internal">Science-Supported Tools to Accelerate Your Fitness Goals</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-06-12T07:00:00.000Z">Jun 12, 2023</time></p><div class="desc"><h3><a href="../episodes/slUCmZJDXrk" class="internal">The Science of MDMA &amp; Its Therapeutic Uses: Benefits &amp; Risks | Huberman Lab Podcast</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-05-08T07:00:00.000Z">May 08, 2023</time></p><div class="desc"><h3><a href="../episodes/eIxVfln02Ss" class="internal">How Psilocybin Can Rewire Our Brain, Its Therapeutic Benefits &amp; Its Risks</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-04-10T07:00:00.000Z">Apr 10, 2023</time></p><div class="desc"><h3><a href="../episodes/6ZrlsVx85ek" class="internal">The Science of Healthy Hair, Hair Loss and How to Regrow Hair</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2023-03-27T07:00:00.000Z">Mar 27, 2023</time></p><div class="desc"><h3><a href="../episodes/K-TW2Chpz4k" class="internal">Leverage Dopamine to Overcome Procrastination &amp; Optimize Effort</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2022-10-31T07:00:00.000Z">Oct 31, 2022</time></p><div class="desc"><h3><a href="../episodes/wTBSGgbIvsY" class="internal">How Meditation Works &amp; Science-Based Effective Meditations</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2022-09-19T07:00:00.000Z">Sep 19, 2022</time></p><div class="desc"><h3><a href="../episodes/uXs-zPc63kM" class="internal">Nicotine's Effects on the Brain &amp; Body &amp; How to Quit Smoking or Vaping</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2022-08-22T07:00:00.000Z">Aug 22, 2022</time></p><div class="desc"><h3><a href="../episodes/DkS1pkKpILY" class="internal">What Alcohol Does to Your Body, Brain &amp; Health</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2022-08-08T07:00:00.000Z">Aug 08, 2022</time></p><div class="desc"><h3><a href="../episodes/h2aWYjSA1Jc" class="internal">Sleep Toolkit: Tools for Optimizing Sleep &amp; Sleep-Wake Timing</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2022-07-25T07:00:00.000Z">Jul 25, 2022</time></p><div class="desc"><h3><a href="../episodes/m_OazsImOiI" class="internal">The Science &amp; Treatment of Bipolar Disorder</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2022-06-27T07:00:00.000Z">Jun 27, 2022</time></p><div class="desc"><h3><a href="../episodes/OadokY8fcAA" class="internal">The Science &amp; Treatment of Obsessive Compulsive Disorder (OCD)</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2022-05-09T07:00:00.000Z">May 09, 2022</time></p><div class="desc"><h3><a href="../episodes/RBK5KLA5Jjg" class="internal">Understanding &amp; Controlling Anger &amp; Aggression</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2022-04-25T07:00:00.000Z">Apr 25, 2022</time></p><div class="desc"><h3><a href="../episodes/EQ3GjpGq5Y8" class="internal">The Science &amp; Health Benefits of Deliberate Heat Exposure</a></h3></div><ul class="tags"></ul></div></li></ul></div></div></div><hr/><div class="page-footer"><script>
+(function() {
+  const WIKI = "huberman";
+  const API_URL = "https://api-production-4224.up.railway.app";
+
+  const THINKING_PHRASES = [
+    "Consulting the archives...",
+    "Searching transcripts...",
+    "Cross-referencing sources...",
+    "Pondering the question...",
+    "Evaluating the evidence...",
+    "Synthesizing insights...",
+  ];
+
+  const styles = `
+    #wiki-chat-widget {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    #wiki-chat-toggle {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--secondary, #2563eb);
+      color: white;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s;
+    }
+    #wiki-chat-toggle:hover { transform: scale(1.05); }
+    #wiki-chat-toggle svg { width: 26px; height: 26px; }
+    #wiki-chat-panel {
+      display: none;
+      position: absolute;
+      bottom: 65px;
+      right: 0;
+      width: 360px;
+      max-height: 480px;
+      background: var(--light, white);
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+      overflow: hidden;
+      flex-direction: column;
+    }
+    #wiki-chat-panel.open { display: flex; }
+    #wiki-chat-header {
+      background: var(--secondary, #2563eb);
+      color: white;
+      padding: 14px 16px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #wiki-chat-close {
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    #wiki-chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 14px;
+      max-height: 280px;
+      background: var(--lightgray, #f9fafb);
+    }
+    .wiki-chat-message {
+      margin-bottom: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      max-width: 90%;
+      line-height: 1.5;
+      font-size: 13px;
+    }
+    .wiki-chat-message.user {
+      background: var(--secondary, #2563eb);
+      color: white;
+      margin-left: auto;
+    }
+    .wiki-chat-message.bot {
+      background: var(--light, white);
+      border: 1px solid var(--gray, #e5e7eb);
+      color: var(--dark, #333);
+    }
+    .wiki-chat-message.bot p { margin: 0 0 8px 0; }
+    .wiki-chat-message.bot p:last-child { margin-bottom: 0; }
+    .wiki-chat-thinking { color: var(--gray, #6b7280); font-style: italic; }
+    #wiki-chat-input-area {
+      padding: 12px;
+      border-top: 1px solid var(--gray, #e5e7eb);
+      background: var(--light, white);
+    }
+    #wiki-chat-email-gate { text-align: center; padding: 16px; }
+    #wiki-chat-email-gate input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid var(--gray, #d1d5db);
+      border-radius: 6px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    #wiki-chat-email-gate button, #wiki-chat-send {
+      padding: 10px 16px;
+      background: var(--secondary, #2563eb);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    #wiki-chat-email-gate button:disabled, #wiki-chat-send:disabled {
+      background: var(--gray, #9ca3af);
+      cursor: not-allowed;
+    }
+    #wiki-chat-form { display: flex; gap: 8px; }
+    #wiki-chat-input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid var(--gray, #d1d5db);
+      border-radius: 6px;
+      font-size: 14px;
+    }
+  `;
+
+  function createWidget() {
+    const widget = document.createElement('div');
+    widget.id = 'wiki-chat-widget';
+    widget.innerHTML = `
+      <style>${styles}</style>
+      <button id="wiki-chat-toggle" aria-label="Open chat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+      </button>
+      <div id="wiki-chat-panel">
+        <div id="wiki-chat-header">
+          <span>Ask the Archive</span>
+          <button id="wiki-chat-close">&times;</button>
+        </div>
+        <div id="wiki-chat-messages"></div>
+        <div id="wiki-chat-input-area">
+          <div id="wiki-chat-email-gate">
+            <p style="margin-bottom:12px;color:var(--dark,#374151);">Enter your email to start chatting</p>
+            <input type="email" id="wiki-chat-email" placeholder="you@example.com" />
+            <button id="wiki-chat-email-submit" style="width:100%;" disabled>Continue</button>
+          </div>
+          <form id="wiki-chat-form" style="display:none;">
+            <input type="text" id="wiki-chat-input" placeholder="Ask a question..." />
+            <button type="submit" id="wiki-chat-send">Send</button>
+          </form>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(widget);
+    initWidget();
+  }
+
+  function initWidget() {
+    const toggle = document.getElementById('wiki-chat-toggle');
+    const panel = document.getElementById('wiki-chat-panel');
+    const closeBtn = document.getElementById('wiki-chat-close');
+    const emailGate = document.getElementById('wiki-chat-email-gate');
+    const emailInput = document.getElementById('wiki-chat-email');
+    const emailSubmit = document.getElementById('wiki-chat-email-submit');
+    const chatForm = document.getElementById('wiki-chat-form');
+    const chatInput = document.getElementById('wiki-chat-input');
+    const messages = document.getElementById('wiki-chat-messages');
+
+    let userEmail = localStorage.getItem('wiki_chat_email');
+    let isLoading = false;
+
+    if (userEmail) {
+      emailGate.style.display = 'none';
+      chatForm.style.display = 'flex';
+    }
+
+    toggle.addEventListener('click', () => {
+      panel.classList.toggle('open');
+      if (panel.classList.contains('open')) {
+        (userEmail ? chatInput : emailInput).focus();
+      }
+    });
+
+    closeBtn.addEventListener('click', () => panel.classList.remove('open'));
+
+    emailInput.addEventListener('input', () => {
+      emailSubmit.disabled = !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailInput.value);
+    });
+
+    emailSubmit.addEventListener('click', async () => {
+      userEmail = emailInput.value.toLowerCase();
+      localStorage.setItem('wiki_chat_email', userEmail);
+      try {
+        await fetch(API_URL + '/register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: userEmail }),
+        });
+      } catch (e) {}
+      emailGate.style.display = 'none';
+      chatForm.style.display = 'flex';
+      chatInput.focus();
+      addMessage('bot', "Hi! Ask me anything about the archive.");
+    });
+
+    chatForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const query = chatInput.value.trim();
+      if (!query || isLoading) return;
+      addMessage('user', query);
+      chatInput.value = '';
+      isLoading = true;
+      let phraseIdx = 0;
+      const thinkingMsg = addMessage('bot', THINKING_PHRASES[0], 'wiki-chat-thinking');
+      const interval = setInterval(() => {
+        phraseIdx = (phraseIdx + 1) % THINKING_PHRASES.length;
+        thinkingMsg.textContent = THINKING_PHRASES[phraseIdx];
+      }, 2000);
+      try {
+        const res = await fetch(API_URL + '/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'X-User-Email': userEmail },
+          body: JSON.stringify({ wiki: WIKI, query, limit: 8 }),
+        });
+        const data = await res.json();
+        thinkingMsg.remove();
+        if (res.ok) {
+          let html = formatMd(data.answer);
+          if (data.sources?.length) {
+            html += '<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--gray,#e5e7eb);font-size:11px;color:var(--gray,#6b7280);"><strong>Sources:</strong> ' +
+              data.sources.slice(0,3).map(s => s.title).join(', ') + '</div>';
+          }
+          addMessage('bot', html, null, true);
+        } else {
+          addMessage('bot', 'Error: ' + (data.detail || 'Request failed'));
+        }
+      } catch (err) {
+        thinkingMsg.remove();
+        addMessage('bot', 'Error: ' + err.message);
+      } finally {
+        clearInterval(interval);
+        isLoading = false;
+      }
+    });
+
+    function addMessage(type, content, extraClass, isHtml) {
+      const msg = document.createElement('div');
+      msg.className = 'wiki-chat-message ' + type + (extraClass ? ' ' + extraClass : '');
+      if (isHtml) msg.innerHTML = content;
+      else msg.textContent = content;
+      messages.appendChild(msg);
+      messages.scrollTop = messages.scrollHeight;
+      return msg;
+    }
+
+    function formatMd(text) {
+      return text
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        .replace(/\n\n/g, '</p><p>')
+        .replace(/\n/g, '<br>')
+        .replace(/^/, '<p>').replace(/$/, '</p>');
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', createWidget);
+  } else {
+    createWidget();
+  }
+})();
+</script></div></div><div class="right sidebar"></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://www.hubermanlab.com">Huberman Lab Podcast</a></li><li><a href="https://www.youtube.com/@hubermanlab">YouTube</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
