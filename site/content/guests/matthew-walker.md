@@ -9,7 +9,7 @@ sources: [2021-06-25-master-your-sleep-episode-2, 2022-08-08-sleep-toolkit-tools
 
 # Matthew Walker on Sleep Science
 
-Matthew Walker is the guest Huberman references more than any other on the topic of [[foundations/sleep|sleep]]. A professor of neuroscience and psychology at UC Berkeley and author of *Why We Sleep*, Walker provides the large-scale epidemiological and laboratory evidence that underpins Huberman's [[protocols/sleep-optimization|sleep optimization]] protocols. Where Huberman tends toward actionable tools, Walker provides the cost-of-not-sleeping data that makes the tools urgent. The partnership is effective: Walker supplies the "why you cannot afford to neglect this" and Huberman supplies the "here is exactly how to fix it."
+Matthew Walker is the guest Huberman references more than any other on the topic of [[sleep|sleep]]. A professor of neuroscience and psychology at UC Berkeley and author of *Why We Sleep*, Walker provides the large-scale epidemiological and laboratory evidence that underpins Huberman's [[sleep-optimization|sleep optimization]] protocols. Where Huberman tends toward actionable tools, Walker provides the cost-of-not-sleeping data that makes the tools urgent. The partnership is effective: Walker supplies the "why you cannot afford to neglect this" and Huberman supplies the "here is exactly how to fix it."
 
 ---
 
@@ -23,13 +23,13 @@ The specific findings Walker presents:
 |--------|----------------------------|-----------|
 | Immune | Natural killer cell activity drops | 70% reduction after one night of 4 hours |
 | Cardiovascular | Heart attack risk increases | 24% increase after spring daylight saving (1 hour lost) |
-| Cognitive | Working memory and attention degrade | Equivalent to legal intoxication after 24 hours awake |
+| Cognitive | Working memory and [[focus-attention|attention]] degrade | Equivalent to legal intoxication after 24 hours awake |
 | Emotional | Amygdala reactivity increases | 60% amplification — the brain overreacts to negative stimuli |
 | Metabolic | Insulin sensitivity decreases | Pre-diabetic glucose regulation after one week of 5-hour nights |
 | Reproductive | Testosterone drops | Men sleeping 5 hours show testosterone levels of someone 10 years older |
 | Cancer | Tumor growth accelerates | WHO classifies shift work as a probable carcinogen |
 
-The amygdala finding is particularly relevant to the Huberman framework. A 60% increase in emotional reactivity from sleep loss means that [[conditions/anxiety|anxiety]], irritability, and emotional dysregulation are *expected consequences* of insufficient sleep, not character failures or psychiatric conditions requiring their own treatment. Sleep is the upstream intervention.
+The amygdala finding is particularly relevant to the Huberman framework. A 60% increase in emotional reactivity from sleep loss means that [[anxiety|anxiety]], irritability, and emotional dysregulation are *expected consequences* of insufficient sleep, not character failures or psychiatric conditions requiring their own treatment. Sleep is the upstream intervention.
 
 ---
 
@@ -53,7 +53,7 @@ Dominant in the second half of the night. Functions:
 - Emotional processing: stripping the emotional charge from difficult memories while preserving the factual content
 - Creative integration: forming novel associations between disparate concepts
 - Procedural learning: motor skill consolidation
-- [[mechanisms/neuroplasticity|Neuroplasticity]]: REM sleep is a window of heightened plasticity
+- [[neuroplasticity|Neuroplasticity]]: REM sleep is a window of heightened plasticity
 
 Walker's description of REM as "overnight therapy" is one of the most cited concepts from his appearances. The brain re-processes emotional experiences during REM, reducing the amygdala activation associated with the memory. A memory that felt devastating before sleep can feel manageable after a full night's rest — not because time passed, but because REM specifically processed the emotional component.
 
@@ -65,15 +65,15 @@ Alcohol, even in moderate amounts, suppresses REM sleep. This is why "sleeping i
 
 ### Temperature
 
-Both emphasize that the body needs to drop its core temperature by approximately 1-3 degrees Fahrenheit to initiate and maintain sleep. This is why a cool bedroom (65-67°F / 18-19°C), hot showers or baths before bed (which paradoxically cool the core through vasodilation), and minimal bedding support sleep onset. Huberman integrates this into his temperature-based sleep protocol.
+Both emphasize that the body needs to drop its core temperature by approximately 1-3 degrees Fahrenheit to initiate and maintain sleep. This is why a cool bedroom (65-67°F / 18-19°C), hot showers or baths before bed (which paradoxically cool the core through vasodilation), and minimal bedding support sleep onset. Huberman integrates this into his temperature-based [[sleep-optimization|sleep protocol]].
 
 ### Light
 
-Walker provides the data; Huberman provides the mechanism. Bright light (especially blue-enriched light from screens) after sunset suppresses melatonin production and delays the circadian signal for sleep onset. Walker quantifies the cost: reading on a tablet versus a paper book delays sleep onset by an average of 30 minutes and reduces REM sleep. Huberman's [[protocols/morning-sunlight|morning sunlight]] and evening dim-light protocols directly address this.
+Walker provides the data; Huberman provides the mechanism. Bright light (especially blue-enriched light from screens) after sunset suppresses melatonin production and delays the circadian signal for sleep onset. Walker quantifies the cost: reading on a tablet versus a paper book delays sleep onset by an average of 30 minutes and reduces REM sleep. Huberman's [[morning-sunlight|morning sunlight]] and evening dim-light protocols directly address this.
 
 ### Regularity
 
-Walker's most underappreciated recommendation: go to bed and wake up at the same time every day, including weekends. The [[mechanisms/circadian-rhythms|circadian system]] does not distinguish between weekdays and weekends. Social jet lag — staying up late and sleeping in on weekends — disrupts the circadian rhythm in ways that take days to recover from. Huberman echoes this as a non-negotiable.
+Walker's most underappreciated recommendation: go to bed and wake up at the same time every day, including weekends. The [[circadian-rhythms|circadian system]] does not distinguish between weekdays and weekends. Social jet lag — staying up late and sleeping in on weekends — disrupts the circadian rhythm in ways that take days to recover from. Huberman echoes this as a non-negotiable.
 
 ---
 
@@ -83,7 +83,7 @@ Walker provides several insights that Huberman incorporates but that originate f
 
 **The "sleep credit card" model:** Sleep debt accumulates like financial debt. The body does not forget missed sleep. While you cannot fully "repay" lost sleep, the debt creates compounding interest in the form of cognitive, emotional, and metabolic degradation. Huberman uses this framing to argue against the "I'll sleep when I'm dead" mentality.
 
-**Napping is real but limited:** Walker distinguishes between power naps (20-25 minutes, no deep sleep, minimal sleep inertia) and longer naps that enter deep sleep and can disrupt nighttime sleep architecture. Huberman integrates this into his [[protocols/nsdr|NSDR]] recommendation — NSDR provides many of the restorative benefits of napping without the risk of entering deep sleep and disrupting the nighttime schedule.
+**Napping is real but limited:** Walker distinguishes between power naps (20-25 minutes, no deep sleep, minimal sleep inertia) and longer naps that enter deep sleep and can disrupt nighttime sleep architecture. Huberman integrates this into his [[nsdr|NSDR]] recommendation — NSDR provides many of the restorative benefits of napping without the risk of entering deep sleep and disrupting the nighttime schedule.
 
 **The Alzheimer's connection:** Walker's research on glymphatic clearance — the brain's waste removal system that operates primarily during deep sleep — provides a mechanism linking chronic insufficient sleep to neurodegenerative disease. This is the finding that moves sleep from a wellness recommendation to a medical imperative.
 
@@ -104,16 +104,16 @@ Walker provides several insights that Huberman incorporates but that originate f
 
 ## Mechanisms Involved
 
-- [[mechanisms/circadian-rhythms|Circadian Rhythms]] — The master clock governing sleep timing
-- [[mechanisms/adenosine|Adenosine]] — Sleep pressure molecule, accumulates during waking
-- [[mechanisms/cortisol|Cortisol]] — Morning peak supports waking; improper timing disrupts sleep
-- [[mechanisms/neuroplasticity|Neuroplasticity]] — REM sleep is a critical window for plastic change
+- [[circadian-rhythms|Circadian Rhythms]] — The master clock governing sleep timing
+- [[adenosine|Adenosine]] — Sleep pressure molecule, accumulates during waking
+- [[cortisol|Cortisol]] — Morning peak supports waking; improper timing disrupts sleep
+- [[neuroplasticity|Neuroplasticity]] — REM sleep is a critical window for plastic change
 
 ## Related Protocols
 
-- [[protocols/sleep-optimization|Sleep Optimization]] — Huberman's full sleep toolkit, heavily informed by Walker
-- [[protocols/morning-sunlight|Morning Sunlight]] — Circadian entrainment, complements Walker's regularity emphasis
-- [[protocols/nsdr|NSDR]] — Walker-compatible nap alternative
+- [[sleep-optimization|Sleep Optimization]] — Huberman's full sleep toolkit, heavily informed by Walker
+- [[morning-sunlight|Morning Sunlight]] — Circadian entrainment, complements Walker's regularity emphasis
+- [[nsdr|NSDR]] — Walker-compatible nap alternative
 
 ---
 

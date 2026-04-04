@@ -9,13 +9,13 @@ sources: [2022-10-03-dr-david-spiegel-using-hypnosis-to-enhance-mental-physical-
 
 # David Spiegel on Hypnosis and the Mind
 
-David Spiegel occupies a unique position in the Huberman orbit: he is both a Stanford colleague and the source of one of Huberman's most frequently recommended tools. A professor and associate chair of psychiatry at Stanford School of Medicine, Spiegel has spent over four decades studying the neuroscience and clinical applications of hypnosis — stripping it of its stage-show associations and establishing it as a serious neuroscience-grounded clinical intervention. Huberman treats Spiegel's work as the scientific validation that transforms hypnosis from something the public associates with entertainment into something that belongs in the same toolkit as [[protocols/cold-exposure|cold exposure]] and [[protocols/nsdr|NSDR]].
+David Spiegel occupies a unique position in the Huberman orbit: he is both a Stanford colleague and the source of one of Huberman's most frequently recommended tools. A professor and associate chair of psychiatry at Stanford School of Medicine, Spiegel has spent over four decades studying the neuroscience and clinical applications of hypnosis — stripping it of its stage-show associations and establishing it as a serious neuroscience-grounded clinical intervention. Huberman treats Spiegel's work as the scientific validation that transforms hypnosis from something the public associates with entertainment into something that belongs in the same toolkit as [[cold-exposure|cold exposure]] and [[nsdr|NSDR]].
 
 ---
 
 ## What Hypnosis Actually Is
 
-Spiegel's definition dispels the popular misconception: hypnosis is not a loss of control. It is a state of *highly focused attention* combined with *deep physical relaxation* and *increased suggestibility*. In neuroimaging terms, hypnosis produces a distinctive brain signature:
+Spiegel's definition dispels the popular misconception: hypnosis is not a loss of control. It is a state of *highly focused [[focus-attention|attention]]* combined with *deep physical relaxation* and *increased suggestibility*. In neuroimaging terms, hypnosis produces a distinctive brain signature:
 
 - **Decreased activity in the dorsal anterior cingulate cortex** — the brain region involved in monitoring the external environment and maintaining vigilance. This is why hypnotized individuals are less distractible.
 - **Increased functional connectivity between the dorsolateral prefrontal cortex and the insula** — enhanced mind-body connection. The brain gains unusual control over body processes typically below conscious regulation.
@@ -29,11 +29,11 @@ Huberman often clarifies the distinctions between these three states, all of whi
 
 | Feature | Meditation | NSDR | Hypnosis |
 |---------|-----------|------|----------|
-| Primary goal | Attentional training | Autonomic restoration | Directed behavioral/perceptual change |
+| Primary goal | Attentional [[exercise-optimization|training]] | Autonomic restoration | Directed behavioral/perceptual change |
 | Attention style | Open awareness or focused attention | Progressive body relaxation | Narrow, absorbed focus on suggestion |
 | Active component | Noticing and returning | Letting go | Absorbing and implementing |
 | Duration | 10-60 minutes | 10-30 minutes | 1-25 minutes per session |
-| [[mechanisms/neuroplasticity|Plasticity]] mechanism | Sustained attentional circuits | Dopamine restoration, stress recovery | Enhanced suggestibility for rewriting patterns |
+| [[neuroplasticity|Plasticity]] mechanism | Sustained attentional circuits | Dopamine restoration, stress recovery | Enhanced suggestibility for rewriting patterns |
 
 The key difference: meditation builds general attentional capacity. NSDR restores neurochemical resources. Hypnosis *directs* the plastic change toward a specific outcome — quitting smoking, reducing pain, managing anxiety, improving sleep.
 
@@ -59,15 +59,15 @@ Hypnosis can reduce the subjective experience of pain by altering the brain's pr
 
 ### Smoking Cessation
 
-One of the best-studied applications. Spiegel's research shows that a single hypnosis session produces quit rates of approximately 20-25% at one year — comparable to pharmacological interventions. The mechanism: during the hypnotic state, the individual develops a deep association between smoking and its harmful effects on the body, strengthening the motivation to quit in a way that bypasses the resistance typical of conscious deliberation.
+One of the best-studied applications. Spiegel's research shows that a single hypnosis session produces quit rates of approximately 20-25% at one year — comparable to pharmacological interventions. The mechanism: during the hypnotic state, the individual develops a deep association between smoking and its harmful effects on the body, strengthening the [[motivation|motivation]] to quit in a way that bypasses the resistance typical of conscious deliberation.
 
 ### Anxiety and Stress
 
-Hypnosis directly addresses the [[conditions/anxiety|anxiety]] circuit by inducing a state that combines deep relaxation with cognitive flexibility. Spiegel's clinical work demonstrates that self-hypnosis practiced regularly reduces baseline anxiety, often comparably to anxiolytic medication without the side effects.
+Hypnosis directly addresses the [[anxiety|anxiety]] circuit by inducing a state that combines deep relaxation with cognitive flexibility. Spiegel's clinical work demonstrates that self-hypnosis practiced regularly reduces baseline anxiety, often comparably to anxiolytic medication without the side effects.
 
 ### Sleep Improvement
 
-Hypnotic suggestion can improve [[protocols/sleep-optimization|sleep]] onset latency and sleep quality, particularly for individuals whose insomnia is maintained by racing thoughts or somatic tension. Huberman connects this to the broader sleep optimization toolkit, noting that hypnosis addresses the cognitive-arousal component of insomnia that temperature, light, and supplement interventions do not directly target.
+Hypnotic suggestion can improve [[sleep-optimization|sleep]] onset latency and sleep quality, particularly for individuals whose insomnia is maintained by racing thoughts or somatic tension. Huberman connects this to the broader [[sleep-optimization|sleep optimization]] toolkit, noting that hypnosis addresses the cognitive-arousal component of insomnia that temperature, light, and supplement interventions do not directly target.
 
 ---
 
@@ -83,7 +83,7 @@ Huberman recommends Reveri specifically because it is based on Spiegel's clinica
 
 ## The Neuroplasticity Connection
 
-Huberman frames hypnosis as a [[mechanisms/neuroplasticity|neuroplasticity]] accelerator. The heightened suggestibility of the hypnotic state creates a window where new associations, patterns, and behaviors can be established with less resistance from existing neural pathways. The prefrontal cortex is engaged (unlike sleep, where it is not), but the default mode network — the seat of self-referential doubt, self-criticism, and habitual thought patterns — is quieted.
+Huberman frames hypnosis as a [[neuroplasticity|neuroplasticity]] accelerator. The heightened suggestibility of the hypnotic state creates a window where new associations, patterns, and behaviors can be established with less resistance from existing neural pathways. The prefrontal cortex is engaged (unlike sleep, where it is not), but the default mode network — the seat of self-referential doubt, self-criticism, and habitual thought patterns — is quieted.
 
 This is why a single hypnosis session can sometimes produce changes that weeks of conscious effort do not: the hypnotic state bypasses the self-critical circuits that resist change and creates a direct pathway for new pattern formation.
 
@@ -106,15 +106,15 @@ Spiegel notes that the changes are not "magic" — they require reinforcement th
 
 ## Mechanisms Involved
 
-- [[mechanisms/neuroplasticity|Neuroplasticity]] — Hypnotic state creates a window of enhanced suggestibility for pattern change
-- [[mechanisms/acetylcholine|Acetylcholine]] — The focused attention component of hypnosis likely involves acetylcholine signaling
-- [[mechanisms/autonomic-nervous-system|Autonomic Nervous System]] — Hypnosis shifts toward parasympathetic dominance, supporting relaxation and pain reduction
+- [[neuroplasticity|Neuroplasticity]] — Hypnotic state creates a window of enhanced suggestibility for pattern change
+- [[acetylcholine|Acetylcholine]] — The focused attention component of hypnosis likely involves acetylcholine signaling
+- [[autonomic-nervous-system|Autonomic Nervous System]] — Hypnosis shifts toward parasympathetic dominance, supporting relaxation and pain reduction
 
 ## Related Protocols
 
-- [[protocols/nsdr|NSDR]] — Overlapping but distinct: NSDR restores, hypnosis directs change
-- [[protocols/breathing|Breathing Protocols]] — Physiological sigh and hypnosis both regulate autonomic tone
-- [[protocols/sleep-optimization|Sleep Optimization]] — Hypnosis addresses the cognitive component of insomnia
+- [[nsdr|NSDR]] — Overlapping but distinct: NSDR restores, hypnosis directs change
+- [[breathing|Breathing Protocols]] — Physiological sigh and hypnosis both regulate autonomic tone
+- [[sleep-optimization|Sleep Optimization]] — Hypnosis addresses the cognitive component of insomnia
 
 ---
 

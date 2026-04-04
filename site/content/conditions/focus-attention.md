@@ -19,21 +19,21 @@ Three neurotransmitter systems work in concert to produce sustained attention. E
 
 ### Acetylcholine: The Spotlight
 
-[[mechanisms/acetylcholine|Acetylcholine]] is the molecule that narrows the cone of attention. When acetylcholine is released in the prefrontal cortex and visual cortex, it acts like a spotlight — amplifying signals from the attended target while suppressing signals from everything else. This is why focus feels like looking through a tube: everything outside the tube dims.
+[[acetylcholine|Acetylcholine]] is the molecule that narrows the cone of attention. When acetylcholine is released in the prefrontal cortex and visual cortex, it acts like a spotlight — amplifying signals from the attended target while suppressing signals from everything else. This is why focus feels like looking through a tube: everything outside the tube dims.
 
 Acetylcholine is released when you *deliberately* direct attention. Passive attention (scrolling, watching) does not produce the same acetylcholine signature as active, effortful focus. This distinction matters because it means focus is a *practice* — the neurochemical reward for effortful attention is better attention.
 
 ### Dopamine: The Motivation
 
-[[mechanisms/dopamine|Dopamine]] determines whether the task you are trying to focus on registers as *worth attending to*. When baseline dopamine is adequate, ordinary tasks generate sufficient signal to sustain attention. When baseline dopamine is low — from sleep deprivation, chronic stress, or dopamine-depleting behaviors — the brain defaults to seeking higher-stimulation alternatives.
+[[dopamine|Dopamine]] determines whether the task you are trying to focus on registers as *worth attending to*. When baseline dopamine is adequate, ordinary tasks generate sufficient signal to sustain attention. When baseline dopamine is low — from sleep deprivation, chronic stress, or dopamine-depleting behaviors — the brain defaults to seeking higher-stimulation alternatives.
 
 This is the mechanism underlying the modern attention crisis. The person who cannot focus on a report but can focus on social media for hours does not have a broken focus system. They have a dopamine system that has been calibrated to require high stimulation for engagement. The focus circuits are intact; the threshold for activation has shifted.
 
 ### Norepinephrine: The Alertness
 
-[[mechanisms/norepinephrine|Norepinephrine]] provides the general level of alertness and arousal without which focus is impossible. Too little norepinephrine and you are drowsy, unable to maintain wakefulness. Too much and you are anxious, scattered, hypervigilant. The optimal zone — sometimes called the Yerkes-Dodson sweet spot — is alert but calm.
+[[norepinephrine|Norepinephrine]] provides the general level of alertness and arousal without which focus is impossible. Too little norepinephrine and you are drowsy, unable to maintain wakefulness. Too much and you are anxious, scattered, hypervigilant. The optimal zone — sometimes called the Yerkes-Dodson sweet spot — is alert but calm.
 
-[[substances/caffeine|Caffeine]] acts partly through norepinephrine pathways, which is why it improves focus at moderate doses but impairs it at high doses. Cold exposure, exercise, and sleep all modulate norepinephrine levels.
+[[caffeine|Caffeine]] acts partly through norepinephrine pathways, which is why it improves focus at moderate doses but impairs it at high doses. Cold exposure, exercise, and sleep all modulate norepinephrine levels.
 
 | System | Role | Deficit Pattern | Key Modulators |
 |--------|------|----------------|----------------|
@@ -59,7 +59,7 @@ Huberman describes the drift-and-return pattern as equivalent to a bicep curl fo
 
 ### Why It Works
 
-The visual system activates [[mechanisms/acetylcholine|acetylcholine]] release in a controllable, voluntary way. Unlike cognitive focus — which is harder to initiate deliberately — visual focus is directly under motor control. You can choose to look at a point. That choice triggers the acetylcholine cascade that supports the broader attention state.
+The visual system activates [[acetylcholine|acetylcholine]] release in a controllable, voluntary way. Unlike cognitive focus — which is harder to initiate deliberately — visual focus is directly under motor control. You can choose to look at a point. That choice triggers the acetylcholine cascade that supports the broader attention state.
 
 Over time, this creates a reliable on-ramp to focused states. Rather than waiting for focus to arrive (or forcing it with stimulants), you develop a behavioral entry point: narrow the eyes, activate the circuits, direct the attention.
 
@@ -74,7 +74,7 @@ Within each 90-minute block:
 - Deep focus typically arrives 15-20 minutes into the block. This is when acetylcholine and dopamine levels stabilize around the task.
 - After 60-90 minutes, focus naturally degrades. Pushing beyond this point yields diminishing returns and increases the cost of the next focus session.
 
-Between blocks: movement, decompression, or [[protocols/nsdr|NSDR]]. Not more screens.
+Between blocks: movement, decompression, or [[nsdr|NSDR]]. Not more screens.
 
 ---
 
@@ -88,11 +88,11 @@ Huberman's recommendation is not abstinence but awareness. Limit rapid-reward ex
 
 ### Sleep Deprivation
 
-A single night of poor sleep reduces prefrontal cortex activity — the seat of executive attention — measurably. The effect is comparable to mild intoxication. No supplement, technique, or stimulant fully compensates. [[protocols/sleep-optimization|Sleep]] is the single most impactful lever for focus.
+A single night of poor sleep reduces prefrontal cortex activity — the seat of executive attention — measurably. The effect is comparable to mild intoxication. No supplement, technique, or stimulant fully compensates. [[sleep-optimization|Sleep]] is the single most impactful lever for focus.
 
 ### Chronic Stress
 
-Chronic [[mechanisms/stress-response|stress]] elevates norepinephrine beyond the optimal range, shifting the nervous system from alert-and-focused to hypervigilant-and-scattered. The anxious person who cannot focus is not lacking discipline; their norepinephrine level is too high for the prefrontal cortex to function in selective attention mode.
+Chronic [[stress-response|stress]] elevates norepinephrine beyond the optimal range, shifting the nervous system from alert-and-focused to hypervigilant-and-scattered. The anxious person who cannot focus is not lacking discipline; their norepinephrine level is too high for the prefrontal cortex to function in selective attention mode.
 
 ---
 
@@ -102,10 +102,10 @@ Huberman discusses several compounds that support focus through the triad mechan
 
 | Supplement | Mechanism | Dosage | Notes |
 |-----------|-----------|--------|-------|
-| [[substances/caffeine|Caffeine]] | Adenosine blocking, norepinephrine increase | 100-300mg | Delay 90-120 min after waking; cut off 8-10 hours before sleep |
+| [[caffeine|Caffeine]] | Adenosine blocking, norepinephrine increase | 100-300mg | Delay 90-120 min after waking; cut off 8-10 hours before sleep |
 | Alpha-GPC | Acetylcholine precursor | 300-600mg | Supports the spotlight system; take before focus sessions |
-| L-Tyrosine | Dopamine precursor | 500-1000mg | Supports motivation; useful on sleep-deprived days |
-| [[substances/creatine|Creatine]] | Prefrontal cortex energy supply | 3-5g daily | Modest cognitive benefit, well-supported safety profile |
+| L-Tyrosine | Dopamine precursor | 500-1000mg | Supports [[motivation|motivation]]; useful on sleep-deprived days |
+| [[creatine|Creatine]] | Prefrontal cortex energy supply | 3-5g daily | Modest cognitive benefit, well-supported safety profile |
 
 These are supplements *to* behavioral interventions, not replacements *for* them.
 
@@ -121,7 +121,7 @@ The evidence is emerging rather than definitive. Some studies show improved focu
 
 ## Focus and ADHD: Where the Line Falls
 
-Huberman is careful to distinguish between *environmentally degraded focus* and *clinical [[conditions/adhd|ADHD]]*. The mechanisms overlap but the severity and origin differ:
+Huberman is careful to distinguish between *environmentally degraded focus* and *clinical [[adhd|ADHD]]*. The mechanisms overlap but the severity and origin differ:
 
 | Feature | Environmental Focus Problems | Clinical ADHD |
 |---------|------------------------------|---------------|
@@ -131,7 +131,7 @@ Huberman is careful to distinguish between *environmentally degraded focus* and 
 | Response to behavioral tools | Often sufficient | Helpful but usually insufficient alone |
 | Medication role | Rarely needed | Often necessary for functional baseline |
 
-Most people with focus complaints fall into the environmental category. Behavioral tools — visual focus training, dopamine protection, sleep optimization, exercise — address the cause directly. For those with genuine ADHD, these same tools remain valuable but typically operate alongside medication rather than replacing it.
+Most people with focus complaints fall into the environmental category. Behavioral tools — visual focus training, dopamine protection, [[sleep-optimization|sleep optimization]], exercise — address the cause directly. For those with genuine ADHD, these same tools remain valuable but typically operate alongside medication rather than replacing it.
 
 ---
 
@@ -143,7 +143,7 @@ Most people with focus complaints fall into the environmental category. Behavior
 > **Work structure:** 90-minute ultradian blocks with movement breaks between
 > **Dopamine protection:** Limit rapid-reward screen time, especially in morning hours
 > **Supplements:** Caffeine (delayed, moderate), Alpha-GPC (300-600mg before focus sessions), L-Tyrosine (as needed)
-> **Exercise:** Daily cardiovascular or resistance training supports all three neurotransmitter systems
+> **Exercise:** Daily cardiovascular or [[exercise-optimization|resistance training]] supports all three neurotransmitter systems
 > **Optional:** 40 Hz binaural beats during focus sessions
 > **Timeline:** Visual focus training shows improvement in days to weeks; dopamine recalibration takes 2-4 weeks of consistent behavior change
 
@@ -151,17 +151,17 @@ Most people with focus complaints fall into the environmental category. Behavior
 
 ## Mechanisms Involved
 
-- [[mechanisms/acetylcholine|Acetylcholine]] — The attentional spotlight, trainable through visual focus
-- [[mechanisms/dopamine|Dopamine]] — Motivation to sustain attention on lower-stimulation tasks
-- [[mechanisms/norepinephrine|Norepinephrine]] — General alertness level, optimal in a moderate range
-- [[mechanisms/neuroplasticity|Neuroplasticity]] — Focus circuits strengthen with deliberate practice
+- [[acetylcholine|Acetylcholine]] — The attentional spotlight, trainable through visual focus
+- [[dopamine|Dopamine]] — Motivation to sustain attention on lower-stimulation tasks
+- [[norepinephrine|Norepinephrine]] — General alertness level, optimal in a moderate range
+- [[neuroplasticity|Neuroplasticity]] — Focus circuits strengthen with deliberate practice
 
 ## Related Protocols
 
-- [[protocols/sleep-optimization|Sleep Optimization]] — The foundational prerequisite for all focus
-- [[protocols/cold-exposure|Cold Exposure]] — Raises dopamine and norepinephrine acutely
-- [[protocols/nsdr|NSDR]] — Restorative between focus blocks, restores dopamine
-- [[protocols/exercise-optimization|Exercise]] — Sustained support for all three neurotransmitter systems
+- [[sleep-optimization|Sleep Optimization]] — The foundational prerequisite for all focus
+- [[cold-exposure|Cold Exposure]] — Raises dopamine and norepinephrine acutely
+- [[nsdr|NSDR]] — Restorative between focus blocks, restores dopamine
+- [[exercise-optimization|Exercise]] — Sustained support for all three neurotransmitter systems
 
 ---
 

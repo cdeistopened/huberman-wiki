@@ -9,7 +9,7 @@ sources: [2025-06-26-dr-anna-lembke-understanding-treating-addiction, 2021-08-09
 
 # Anna Lembke on Dopamine and Addiction
 
-Anna Lembke is the guest whose framework most directly integrates with Huberman's own. Lembke — professor of psychiatry at Stanford, chief of the Stanford Addiction Medicine Dual Diagnosis Clinic, and author of *Dopamine Nation* — provides the clinical and conceptual bridge between Huberman's [[mechanisms/dopamine|dopamine]] neuroscience and the real-world consequences of dopamine dysregulation. Where Huberman describes the baseline-peak-trough dynamic in mechanistic terms, Lembke translates it into a clinical model that explains addiction, compulsive behavior, and the modern epidemic of anhedonia.
+Anna Lembke is the guest whose framework most directly integrates with Huberman's own. Lembke — professor of psychiatry at Stanford, chief of the Stanford Addiction Medicine Dual Diagnosis Clinic, and author of *Dopamine Nation* — provides the clinical and conceptual bridge between Huberman's [[dopamine|dopamine]] neuroscience and the real-world consequences of dopamine dysregulation. Where Huberman describes the baseline-peak-trough dynamic in mechanistic terms, Lembke translates it into a clinical model that explains addiction, compulsive behavior, and the modern epidemic of anhedonia.
 
 ---
 
@@ -62,7 +62,7 @@ Huberman connects this to his own recommendations for dopamine management — va
 
 One of Lembke's most important contributions is destigmatizing addiction by placing it on a continuum rather than treating it as a binary condition. She argues that the same neurochemistry that produces heroin addiction produces social media compulsion — the difference is severity and social acceptability, not mechanism.
 
-This framing allows Huberman to extend the addiction framework to behavioral patterns most people would not label "addiction": compulsive phone checking, sugar cravings, pornography use, online shopping, news consumption. When Huberman discusses [[conditions/motivation|motivation deficits]] or [[conditions/depression|anhedonic depression]], he often invokes Lembke's framework to explain how common daily behaviors can progressively erode baseline dopamine without meeting clinical criteria for addiction.
+This framing allows Huberman to extend the addiction framework to behavioral patterns most people would not label "addiction": compulsive phone checking, sugar cravings, pornography use, online shopping, news consumption. When Huberman discusses [[motivation|motivation deficits]] or [[depression|anhedonic depression]], he often invokes Lembke's framework to explain how common daily behaviors can progressively erode baseline dopamine without meeting clinical criteria for addiction.
 
 ---
 
@@ -80,7 +80,7 @@ Lembke's contributions strengthen several elements of Huberman's broader framewo
 
 **Dopamine management:** Lembke provides clinical validation that Huberman's recommendations — vary your enhancers, do not stack dopamine triggers, periodically fast from high-stimulation inputs — are not merely optimization advice but preventive medicine against the most common neurochemical dysfunction of modern life.
 
-**Cold exposure rationale:** [[protocols/cold-exposure|Deliberate cold exposure]] produces a 2.5x dopamine increase that returns to a *higher* baseline rather than crashing below it. In Lembke's framework, this makes cold exposure one of the few genuinely "healthy" dopamine sources — one that raises the set point rather than depleting it.
+**Cold exposure rationale:** [[cold-exposure|Deliberate cold exposure]] produces a 2.5x dopamine increase that returns to a *higher* baseline rather than crashing below it. In Lembke's framework, this makes cold exposure one of the few genuinely "healthy" dopamine sources — one that raises the set point rather than depleting it.
 
 **The effort-reward connection:** Huberman's recommendation to attach reward to effort rather than outcome aligns with Lembke's clinical observation that patients who rebuild their capacity for delayed gratification — who learn to tolerate discomfort — recover faster and more durably than those who seek new, "healthier" sources of instant gratification.
 
@@ -94,7 +94,7 @@ Lembke's contributions strengthen several elements of Huberman's broader framewo
 > - Expect 1-2 weeks of increased discomfort before improvement
 > - Ordinary pleasures should begin returning by weeks 2-4
 > **Ongoing maintenance:**
-> - Do not stack multiple dopamine triggers (e.g., caffeine + music + pre-workout before exercise)
+> - Do not stack multiple dopamine triggers (e.g., caffeine + music + pre-workout before [[exercise-optimization|exercise]])
 > - Vary enhancers randomly rather than using the same ones every session
 > - Include periods of deliberate low-stimulation time (walks without podcasts, meals without screens)
 > **Healthy dopamine sources:** Cold exposure, exercise, focused work, meaningful social connection — these raise baseline rather than depleting it
@@ -104,21 +104,21 @@ Lembke's contributions strengthen several elements of Huberman's broader framewo
 
 ## Mechanisms Involved
 
-- [[mechanisms/dopamine|Dopamine]] — The pleasure-pain balance is a dopamine baseline phenomenon
-- [[mechanisms/stress-response|Stress Response]] — Withdrawal and craving activate stress circuits
-- [[mechanisms/neuroplasticity|Neuroplasticity]] — Compulsive behaviors are reinforced through synaptic strengthening; recovery requires new circuit formation
+- [[dopamine|Dopamine]] — The pleasure-pain balance is a dopamine baseline phenomenon
+- [[stress-response|Stress Response]] — Withdrawal and craving activate stress circuits
+- [[neuroplasticity|Neuroplasticity]] — Compulsive behaviors are reinforced through synaptic strengthening; recovery requires new circuit formation
 
 ## Related Conditions
 
-- [[conditions/depression|Depression]] — Anhedonic depression shares the dopamine depletion mechanism
-- [[conditions/motivation|Motivation]] — Low baseline dopamine produces chronic amotivation
-- [[conditions/adhd|ADHD]] — Low baseline dopamine creates similar stimulation-seeking behavior
+- [[depression|Depression]] — Anhedonic depression shares the dopamine depletion mechanism
+- [[motivation|Motivation]] — Low baseline dopamine produces chronic [[motivation|amotivation]]
+- [[adhd|ADHD]] — Low baseline dopamine creates similar stimulation-seeking behavior
 
 ## Related Protocols
 
-- [[protocols/cold-exposure|Cold Exposure]] — Healthy dopamine source that raises baseline
-- [[protocols/nsdr|NSDR]] — Restores striatal dopamine reserves
-- [[protocols/exercise-optimization|Exercise]] — Sustained baseline dopamine support
+- [[cold-exposure|Cold Exposure]] — Healthy dopamine source that raises baseline
+- [[nsdr|NSDR]] — Restores striatal dopamine reserves
+- [[exercise-optimization|Exercise]] — Sustained baseline dopamine support
 
 ---
 

@@ -17,7 +17,7 @@ Peter Attia brings a framework to the Huberman podcast that extends beyond neuro
 
 Attia's core argument is that modern medicine — what he calls "Medicine 2.0" — is reactive: it waits for disease to manifest, then treats it. His proposed "Medicine 3.0" is proactive: it identifies and addresses the *precursors* of disease decades before symptoms appear. The four diseases that kill most people in the developed world — cardiovascular disease, cancer, neurodegenerative disease, and metabolic disease — all have decades-long developmental arcs. By the time a heart attack occurs, the atherosclerotic process has been running for 20-30 years.
 
-The implication for Huberman's audience: the protocols discussed on the podcast are not wellness luxuries. They are interventions in decades-long disease processes. [[protocols/exercise-optimization|Exercise]], [[protocols/sleep-optimization|sleep]], nutrition, and emotional health are the primary tools of Medicine 3.0, not medication.
+The implication for Huberman's audience: the protocols discussed on the podcast are not wellness luxuries. They are interventions in decades-long disease processes. [[exercise-optimization|Exercise]], [[sleep-optimization|sleep]], nutrition, and emotional health are the primary tools of Medicine 3.0, not medication.
 
 ---
 
@@ -39,11 +39,11 @@ The single exercise modality Attia prioritizes above all others. Zone 2 is the i
 
 Attia's recommendation: **3-4 sessions per week, 45-60 minutes each.** This is substantially more zone 2 than most exercise guidelines recommend, and Attia defends the volume based on its effects on mitochondrial health, metabolic flexibility, and cardiovascular reserve.
 
-Huberman echoes this recommendation in his [[protocols/exercise-optimization|exercise optimization]] framework, noting that zone 2 cardio supports dopamine production, BDNF release, and cognitive function in addition to the metabolic and cardiovascular benefits Attia emphasizes.
+Huberman echoes this recommendation in his [[exercise-optimization|exercise optimization]] framework, noting that zone 2 cardio supports dopamine production, BDNF release, and cognitive function in addition to the metabolic and cardiovascular benefits Attia emphasizes.
 
 ### Strength Training
 
-Attia frames resistance training as the most important exercise modality for longevity — more important than cardio, despite the cultural emphasis on cardiovascular fitness. The reasoning:
+Attia frames [[exercise-optimization|resistance training]] as the most important exercise modality for longevity — more important than cardio, despite the cultural emphasis on cardiovascular fitness. The reasoning:
 
 - Muscle mass is the single strongest predictor of all-cause mortality in older adults
 - Strength prevents falls (the leading cause of injury death in adults over 65)
@@ -51,7 +51,7 @@ Attia frames resistance training as the most important exercise modality for lon
 - Glucose disposal (insulin sensitivity) is largely determined by muscle mass
 - Functional independence requires strength more than endurance
 
-His recommendation: **3-4 sessions per week,** focusing on compound movements (squats, deadlifts, presses, rows) with progressive overload. Grip strength receives particular attention as both a biomarker of overall health and a functional prerequisite for independence.
+His recommendation: **3-4 sessions per week,** focusing on compound movements (squats, deadlifts, presses, rows) with progressive overload. Grip strength receives particular [[focus-attention|attention]] as both a biomarker of overall health and a functional prerequisite for independence.
 
 ### Stability
 
@@ -71,7 +71,7 @@ Attia brings significant expertise on metabolic health that extends beyond Huber
 
 **Insulin resistance as the common upstream factor:** Attia argues that insulin resistance — the progressive inability of cells to respond to insulin — is the metabolic foundation underlying cardiovascular disease, type 2 diabetes, and potentially neurodegenerative disease. By the time fasting glucose is elevated, insulin resistance has been progressing for years to decades.
 
-**Continuous glucose monitoring (CGM):** Attia recommends CGMs as a feedback tool for understanding individual responses to food, exercise, sleep, and stress. Huberman has discussed CGMs as a way to observe how diet and behavior affect glucose in real time, connecting this to energy, focus, and mood.
+**Continuous glucose monitoring (CGM):** Attia recommends CGMs as a feedback tool for understanding individual responses to food, exercise, [[sleep-optimization|sleep]], and stress. Huberman has discussed CGMs as a way to observe how diet and behavior affect glucose in real time, connecting this to energy, focus, and mood.
 
 **Fasting:** Attia's position on fasting has evolved over the years. He previously advocated for longer fasting periods but has moderated, emphasizing that muscle preservation is more important for longevity than the metabolic benefits of extended fasting. Time-restricted eating (12-16 hour eating windows) may provide modest metabolic benefits without the muscle loss risk of longer fasts.
 
@@ -81,7 +81,7 @@ Attia brings significant expertise on metabolic health that extends beyond Huber
 
 In a notable departure from his typical analytical approach, Attia discusses emotional health as a genuine longevity pillar — not secondary to physical health but equally fundamental. He attributes his own transformation in this area to therapy (specifically dialectical behavior therapy) and discusses how unaddressed emotional patterns — anger, isolation, perfectionism — contribute to chronic stress, relationship breakdown, and behaviors (alcohol use, overwork, neglect of health) that erode longevity.
 
-Huberman recognizes this as complementary to his own framework on [[mechanisms/stress-response|stress]], noting that Sapolsky's research on chronic stress and Attia's clinical observations converge: emotional health is not separable from physical health at the biological level.
+Huberman recognizes this as complementary to his own framework on [[stress-response|stress]], noting that [[robert-sapolsky|Sapolsky]]'s research on chronic stress and Attia's clinical observations converge: emotional health is not separable from physical health at the biological level.
 
 ---
 
@@ -99,16 +99,16 @@ Huberman recognizes this as complementary to his own framework on [[mechanisms/s
 
 ## Mechanisms Involved
 
-- [[mechanisms/bdnf|BDNF]] — Exercise-induced neurotrophin that supports brain health across the lifespan
-- [[mechanisms/cortisol|Cortisol]] — Chronic elevation accelerates aging across all systems
-- [[mechanisms/inflammation|Inflammation]] — Metabolic dysfunction drives chronic inflammatory signaling
-- [[mechanisms/dopamine|Dopamine]] — Exercise maintains dopaminergic function relevant to motivation and mood in aging
+- [[bdnf|BDNF]] — Exercise-induced neurotrophin that supports brain health across the lifespan
+- [[cortisol|Cortisol]] — Chronic elevation accelerates aging across all systems
+- [[inflammation|Inflammation]] — Metabolic dysfunction drives chronic inflammatory signaling
+- [[dopamine|Dopamine]] — Exercise maintains dopaminergic function relevant to [[motivation|motivation]] and mood in aging
 
 ## Related Protocols
 
-- [[protocols/exercise-optimization|Exercise Optimization]] — Huberman's framework, informed significantly by Attia's recommendations
-- [[protocols/sleep-optimization|Sleep Optimization]] — Attia identifies sleep as the most underrated longevity intervention
-- [[protocols/cold-exposure|Cold Exposure]] — Complements exercise for metabolic and neurochemical benefits
+- [[exercise-optimization|Exercise Optimization]] — Huberman's framework, informed significantly by Attia's recommendations
+- [[sleep-optimization|Sleep Optimization]] — Attia identifies sleep as the most underrated longevity intervention
+- [[cold-exposure|Cold Exposure]] — Complements exercise for metabolic and neurochemical benefits
 
 ---
 

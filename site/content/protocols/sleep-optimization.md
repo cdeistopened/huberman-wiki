@@ -9,7 +9,7 @@ sources: [2022-08-08-sleep-toolkit-tools-for-optimizing-sleep-sleep, 2024-11-28-
 
 # Sleep Optimization
 
-Sleep is the foundation. Not a foundation — *the* foundation. Every protocol Huberman discusses — cold exposure, exercise, supplementation, focus, learning — depends on adequate sleep to function. [[mechanisms/neuroplasticity|Neuroplasticity]] occurs during sleep. [[mechanisms/dopamine|Dopamine]] receptor sensitivity restores during sleep. [[mechanisms/cortisol|Cortisol]] rhythms reset during sleep. Immune surveillance peaks during sleep. If you optimize everything else and sleep poorly, you have optimized nothing.
+Sleep is the foundation. Not a foundation — *the* foundation. Every protocol Huberman discusses — cold exposure, [[exercise-optimization|exercise]], supplementation, [[focus-attention|focus]], learning — depends on adequate sleep to function. [[neuroplasticity|Neuroplasticity]] occurs during sleep. [[dopamine|Dopamine]] receptor sensitivity restores during sleep. [[cortisol|Cortisol]] rhythms reset during sleep. Immune surveillance peaks during sleep. If you optimize everything else and sleep poorly, you have optimized nothing.
 
 Huberman's sleep framework is unusually complete because it addresses every lever simultaneously: light, temperature, timing, supplements, and behavioral tools. No single intervention is sufficient. The combination is what produces reliable, high-quality sleep.
 
@@ -36,9 +36,9 @@ This architecture explains why different types of sleep disruption produce diffe
 
 ### 1. Light: The Master Signal
 
-Morning and evening light management is the single highest-leverage sleep intervention. The protocol is detailed in [[protocols/morning-sunlight|Morning Sunlight Exposure]], but the sleep-relevant summary:
+Morning and evening light management is the single highest-leverage sleep intervention. The protocol is detailed in [[morning-sunlight|Morning Sunlight Exposure]], but the sleep-relevant summary:
 
-- **Morning (first 30-60 min):** Bright outdoor light sets the [[mechanisms/circadian-rhythms|circadian clock]] and programs melatonin release 12-14 hours later
+- **Morning (first 30-60 min):** Bright outdoor light sets the [[circadian-rhythms|circadian clock]] and programs melatonin release 12-14 hours later
 - **Evening (after sunset):** Dim lights, avoid overhead bright sources, minimize screen blue light
 - **Night:** Complete darkness — blackout curtains or eye mask
 
@@ -65,8 +65,8 @@ As Huberman explains, "temperature is the effector — it is the way that the ce
 
 | Supplement | Dosage | Mechanism | Notes |
 |------------|--------|-----------|-------|
-| [[substances/magnesium|Magnesium threonate]] | 300-400mg | Crosses blood-brain barrier, promotes GABA activity | Huberman's primary sleep supplement recommendation |
-| [[substances/magnesium|Magnesium bisglycinate]] | 200-400mg | Muscle relaxation, calming | Alternative or addition to threonate |
+| [[magnesium|Magnesium threonate]] | 300-400mg | Crosses blood-brain barrier, promotes GABA activity | Huberman's primary sleep supplement recommendation |
+| [[magnesium|Magnesium bisglycinate]] | 200-400mg | Muscle relaxation, calming | Alternative or addition to threonate |
 | Apigenin | 50mg | Mild anxiolytic, promotes sleepiness | Found in chamomile; Huberman takes nightly |
 | Theanine | 100-400mg | Promotes relaxation without sedation | Some people find it causes vivid dreams; skip if this is disruptive |
 | Inositol | 900mg | Supports serotonin signaling | Helpful for falling back asleep after middle-of-night waking |
@@ -75,7 +75,7 @@ As Huberman explains, "temperature is the effector — it is the way that the ce
 
 | Substance | Effect on Sleep |
 |-----------|----------------|
-| [[substances/caffeine|Caffeine]] after early afternoon | Blocks [[mechanisms/adenosine|adenosine]], delays sleep onset, reduces deep sleep even if you "fall asleep fine" |
+| [[caffeine|Caffeine]] after early afternoon | Blocks [[adenosine|adenosine]], delays sleep onset, reduces deep sleep even if you "fall asleep fine" |
 | Alcohol | Disrupts REM, fragments sleep architecture, causes early morning waking |
 | THC/cannabis | Reduces REM; can help initiation but degrades overall quality |
 | Most sleep medications (benzodiazepines, Z-drugs) | Produce sedation, not sleep — suppress deep sleep and REM architecture |
@@ -84,7 +84,7 @@ As Huberman explains, "temperature is the effector — it is the way that the ce
 
 ### 5. Behavioral Tools
 
-- **[[protocols/nsdr|NSDR]]:** 10-20 minutes if having difficulty falling asleep or if waking during the night. Shifts the [[mechanisms/autonomic-nervous-system|autonomic nervous system]] toward parasympathetic dominance without clearing sleep pressure.
+- **[[nsdr|NSDR]]:** 10-20 minutes if having difficulty falling asleep or if waking during the night. Shifts the [[autonomic-nervous-system|autonomic nervous system]] toward parasympathetic dominance without clearing sleep pressure.
 - **Physiological sigh:** If anxious thoughts are preventing sleep, 1-3 physiological sighs (double inhale through nose, extended exhale through mouth) can reduce sympathetic activation within seconds.
 - **Limit bed to sleep:** Do not work, scroll, or watch content in bed. The bed should be associated with sleep and intimacy only.
 - **Consistent pre-sleep routine:** 30-60 minutes of low-stimulation activity signals the brain that sleep is approaching.
@@ -129,34 +129,34 @@ Tools: Evening sunlight viewing (delays the clock slightly), addressing underlyi
 
 Usually caused by: alcohol disrupting sleep architecture, sleep apnea, or insufficient deep sleep.
 
-Tools: Eliminate alcohol, evaluate for sleep apnea if snoring is present, cool the bedroom, resistance exercise (increases deep sleep drive).
+Tools: Eliminate alcohol, evaluate for sleep apnea if snoring is present, cool the bedroom, resistance exercise (increases deep sleep [[motivation|drive]]).
 
 ---
 
 ## Mechanisms Involved
 
-- [[mechanisms/circadian-rhythms|Circadian Rhythms]] — Sleep timing is downstream of circadian alignment
-- [[mechanisms/adenosine|Adenosine]] — Sleep pressure molecule that builds during waking and clears during sleep
-- [[mechanisms/melatonin|Melatonin]] — Sleep onset trigger, set by morning light exposure
-- [[mechanisms/cortisol|Cortisol]] — Should be minimal at night; rising cortisol causes early waking
-- [[mechanisms/neuroplasticity|Neuroplasticity]] — Consolidation of learning occurs during sleep
-- [[mechanisms/dopamine|Dopamine]] — Receptor sensitivity restores during sleep
+- [[circadian-rhythms|Circadian Rhythms]] — Sleep timing is downstream of circadian alignment
+- [[adenosine|Adenosine]] — Sleep pressure molecule that builds during waking and clears during sleep
+- [[melatonin|Melatonin]] — Sleep onset trigger, set by morning light exposure
+- [[cortisol|Cortisol]] — Should be minimal at night; rising cortisol causes early waking
+- [[neuroplasticity|Neuroplasticity]] — Consolidation of learning occurs during sleep
+- [[dopamine|Dopamine]] — Receptor sensitivity restores during sleep
 
 ## Related Protocols
 
-- [[protocols/morning-sunlight|Morning Sunlight]] — Sets the circadian foundation for sleep quality
-- [[protocols/nsdr|NSDR]] — Recovery tool for poor sleep nights; sleep onset aid
-- [[protocols/cold-exposure|Cold Exposure]] — Morning cold raises core temperature, supporting circadian wake signal
-- [[protocols/exercise-optimization|Exercise Optimization]] — Regular exercise improves sleep quality; timing matters
+- [[morning-sunlight|Morning Sunlight]] — Sets the circadian foundation for sleep quality
+- [[nsdr|NSDR]] — Recovery tool for poor sleep nights; sleep onset aid
+- [[cold-exposure|Cold Exposure]] — Morning cold raises core temperature, supporting circadian wake signal
+- [[exercise-optimization|Exercise Optimization]] — Regular exercise improves sleep quality; timing matters
 
 ## Source Episodes
 
 | Episode | Key Contribution |
 |---------|-----------------|
-| [[episodes/2022-08-08-sleep-toolkit-tools-for-optimizing-sleep-sleep|Sleep Toolkit]] | Complete sleep protocol: light, temperature, supplements, timing |
-| [[episodes/2024-11-28-huberman-lab-essentials-using-science-to-optimize-sleep|Using Science to Optimize Sleep]] | Temperature as effector, meal timing, caffeine dynamics |
-| [[episodes/2023-10-30-mental-health-toolkit-tools-to-bolster-your-mood|Mental Health Toolkit]] | Sleep as foundational pillar, NSDR for recovery |
-| [[episodes/2025-01-02-huberman-lab-essentials-optimize-your-learning-creativity-with|Optimize Learning & Creativity]] | Sleep-plasticity connection, evening light protocol |
+| [[2022-08-08-sleep-toolkit-tools-for-optimizing-sleep-sleep|Sleep Toolkit]] | Complete sleep protocol: light, temperature, supplements, timing |
+| [[2024-11-28-huberman-lab-essentials-using-science-to-optimize-sleep|Using Science to Optimize Sleep]] | Temperature as effector, meal timing, caffeine dynamics |
+| [[2023-10-30-mental-health-toolkit-tools-to-bolster-your-mood|Mental Health Toolkit]] | Sleep as foundational pillar, NSDR for recovery |
+| [[2025-01-02-huberman-lab-essentials-optimize-your-learning-creativity-with|Optimize Learning & Creativity]] | Sleep-plasticity connection, evening light protocol |
 
 ---
 

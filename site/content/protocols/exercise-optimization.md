@@ -9,7 +9,7 @@ sources: [2025-01-06-use-exercise-to-improve-your, 2022-04-25-the-science-health
 
 # Exercise Optimization
 
-Exercise is the single most effective intervention for brain health, mood regulation, and longevity that exists. This is not a controversial claim — it is the convergence point of virtually every line of evidence Huberman examines. The question is not whether to exercise, but how to structure training for maximum neurological and physiological benefit. Huberman's framework provides specific prescriptions for what types of exercise to do, when to do them, and how to integrate them with sleep, learning, and other protocols.
+Exercise is the single most effective intervention for brain health, mood regulation, and longevity that exists. This is not a controversial claim — it is the convergence point of virtually every line of evidence Huberman examines. The question is not whether to exercise, but how to structure training for maximum neurological and physiological benefit. Huberman's framework provides specific prescriptions for what types of exercise to do, when to do them, and how to integrate them with [[sleep-optimization|sleep]], learning, and other protocols.
 
 ---
 
@@ -33,9 +33,9 @@ This is not the high-intensity interval work that dominates fitness culture. It 
 
 ### Resistance Training
 
-Resistance training drives [[mechanisms/neuroplasticity|neuroplasticity]], maintains bone density, preserves muscle mass during aging, and produces hormonal responses (growth hormone, testosterone) that support brain and body health. Huberman follows a split that trains each major muscle group twice per week.
+Resistance training drives [[neuroplasticity|neuroplasticity]], maintains bone density, preserves muscle mass during aging, and produces hormonal responses (growth hormone, testosterone) that support brain and body health. Huberman follows a split that trains each major muscle group twice per week.
 
-The neurological benefit is specific: resistance training at challenging intensities (approaching failure) releases a cascade of growth factors including [[mechanisms/bdnf|BDNF]], IGF-1, and testosterone that directly support synaptic modification and neuronal health.
+The neurological benefit is specific: resistance training at challenging intensities (approaching failure) releases a cascade of growth factors including [[bdnf|BDNF]], IGF-1, and testosterone that directly support synaptic modification and neuronal health.
 
 | Parameter | Specification |
 |-----------|--------------|
@@ -60,15 +60,15 @@ HIIT — brief bouts of maximal or near-maximal effort — produces neurochemica
 
 ## Exercise and the Brain: The Molecular Cascade
 
-Huberman's [[episodes/2025-01-06-use-exercise-to-improve-your|exercise and brain health episode]] describes the specific molecules released during different exercise modalities:
+Huberman's [[2025-01-06-use-exercise-to-improve-your|exercise and brain health episode]] describes the specific molecules released during different exercise modalities:
 
 | Molecule | Released By | Brain Effect |
 |----------|------------|--------------|
-| [[mechanisms/bdnf|BDNF]] | Cardiovascular and HIIT exercise | Supports neuroplasticity, neurogenesis, synaptic strength |
+| [[bdnf|BDNF]] | Cardiovascular and HIIT exercise | Supports neuroplasticity, neurogenesis, synaptic strength |
 | Osteocalcin | Load-bearing exercise (running, jumping, resistance) | Enhances hippocampal function, learning, and memory |
 | Lactate | High-intensity effort | Serves as brain fuel, supports blood-brain barrier integrity |
-| [[mechanisms/dopamine|Dopamine]] | All exercise modalities | Raises baseline for sustained motivation and mood |
-| [[mechanisms/norepinephrine|Norepinephrine]] | Intense effort, cold exposure | Increases alertness and attention capacity |
+| [[dopamine|Dopamine]] | All exercise modalities | Raises baseline for sustained [[motivation|motivation]] and mood |
+| [[norepinephrine|Norepinephrine]] | Intense effort, cold exposure | Increases alertness and [[focus-attention|attention]] capacity |
 | Growth hormone | Resistance training, HIIT | Tissue repair, metabolic support |
 
 This triple molecule cascade — BDNF, osteocalcin, and lactate — is the reason Huberman recommends including HIIT, resistance training, and zone 2 cardio rather than relying on any single modality.
@@ -79,8 +79,8 @@ This triple molecule cascade — BDNF, osteocalcin, and lactate — is the reaso
 
 ### Morning Exercise
 
-- Amplifies the [[mechanisms/cortisol|cortisol]] awakening response set by [[protocols/morning-sunlight|morning light]]
-- Raises core body temperature, reinforcing [[mechanisms/circadian-rhythms|circadian]] wake signaling
+- Amplifies the [[cortisol|cortisol]] awakening response set by [[morning-sunlight|morning light]]
+- Raises core body temperature, reinforcing [[circadian-rhythms|circadian]] wake signaling
 - Creates optimal neurochemical state for focused learning in subsequent hours
 - Moderate-intensity preferred (zone 2 or moderate resistance); very high intensity can be fatiguing
 
@@ -99,13 +99,13 @@ This triple molecule cascade — BDNF, osteocalcin, and lactate — is the reaso
 
 ### Exercise and Learning Windows
 
-Huberman describes a specific interaction: exercise triggers the adrenaline-vagus-[[mechanisms/norepinephrine|norepinephrine]] pathway for alertness and the vagus-nucleus basalis pathway for focus. Organizing learning bouts in the **one to two hours following high-intensity exercise** leverages both pathways for enhanced [[mechanisms/neuroplasticity|neuroplasticity]].
+Huberman describes a specific interaction: exercise triggers the adrenaline-vagus-[[norepinephrine|norepinephrine]] pathway for alertness and the vagus-nucleus basalis pathway for focus. Organizing learning bouts in the **one to two hours following high-intensity exercise** leverages both pathways for enhanced [[neuroplasticity|neuroplasticity]].
 
 ---
 
 ## Exercise and Cold Exposure: The Timing Conflict
 
-The relationship between exercise and [[protocols/cold-exposure|cold exposure]] depends on the training goal:
+The relationship between exercise and [[cold-exposure|cold exposure]] depends on the training goal:
 
 | Goal | Cold Timing | Rationale |
 |------|------------|-----------|
@@ -150,26 +150,26 @@ This template is illustrative, not prescriptive. The principles are: hit each mu
 
 ## Mechanisms Involved
 
-- [[mechanisms/bdnf|BDNF]] — Exercise-induced growth factor supporting neuroplasticity
-- [[mechanisms/dopamine|Dopamine]] — Baseline elevation from regular exercise
-- [[mechanisms/norepinephrine|Norepinephrine]] — Alertness and attention enhancement post-exercise
-- [[mechanisms/cortisol|Cortisol]] — Acute exercise cortisol is adaptive; chronic overtraining cortisol is not
-- [[mechanisms/circadian-rhythms|Circadian Rhythms]] — Core temperature effects of exercise reinforce circadian timing
+- [[bdnf|BDNF]] — Exercise-induced growth factor supporting neuroplasticity
+- [[dopamine|Dopamine]] — Baseline elevation from regular exercise
+- [[norepinephrine|Norepinephrine]] — Alertness and attention enhancement post-exercise
+- [[cortisol|Cortisol]] — Acute exercise cortisol is adaptive; chronic overtraining cortisol is not
+- [[circadian-rhythms|Circadian Rhythms]] — Core temperature effects of exercise reinforce circadian timing
 
 ## Related Protocols
 
-- [[protocols/cold-exposure|Deliberate Cold Exposure]] — Timing considerations relative to training goals
-- [[protocols/sleep-optimization|Sleep Optimization]] — Exercise quality depends on sleep; sleep quality improves with exercise
-- [[protocols/nsdr|NSDR]] — Post-training recovery and skill consolidation
-- [[protocols/morning-sunlight|Morning Sunlight]] — Paired with morning exercise for maximum circadian anchoring
+- [[cold-exposure|Deliberate Cold Exposure]] — Timing considerations relative to training goals
+- [[sleep-optimization|Sleep Optimization]] — Exercise quality depends on sleep; sleep quality improves with exercise
+- [[nsdr|NSDR]] — Post-training recovery and skill consolidation
+- [[morning-sunlight|Morning Sunlight]] — Paired with morning exercise for maximum circadian anchoring
 
 ## Source Episodes
 
 | Episode | Key Contribution |
 |---------|-----------------|
-| [[episodes/2025-01-06-use-exercise-to-improve-your|Exercise to Improve Brain Health]] | BDNF-osteocalcin-lactate cascade, zone 2 for cardiovascular delivery |
-| [[episodes/2022-04-25-the-science-health-benefits-of|Science of Deliberate Heat Exposure]] | Exercise-sauna interaction, Søberg protocol |
-| [[episodes/2025-06-23-control-your-vagus-nerve-to|Control Your Vagus Nerve]] | Exercise-alertness-plasticity pathway timing |
+| [[2025-01-06-use-exercise-to-improve-your|Exercise to Improve Brain Health]] | BDNF-osteocalcin-lactate cascade, zone 2 for cardiovascular delivery |
+| [[2022-04-25-the-science-health-benefits-of|Science of Deliberate Heat Exposure]] | Exercise-sauna interaction, Søberg protocol |
+| [[2025-06-23-control-your-vagus-nerve-to|Control Your Vagus Nerve]] | Exercise-alertness-plasticity pathway timing |
 
 ---
 
